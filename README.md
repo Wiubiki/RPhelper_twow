@@ -40,13 +40,16 @@ RPWORDLIST.entercombat.SHAMAN.random = {}
 INSIDE the CURLEY BRACKETS {}
 type:
  double quotes, your phrase, double quotes, comma
-  
+
+```LUA
 RPWORDLIST.entercombat.DRUID = {"I will destroy those who are not one with nature.",}
+```
 
 After the COMMA, you can type other phrases using the same pattern:
 RPWORDLIST.entercombat.DRUID = {"Phrase #1","Phrase #2","Phrase #3","Phrase #4","Phrase #5",}
 
 Spaces and returns after commas aren't counted, so you should use them to avoid clutter:
+```lua
 RPWORDLIST.entercombat.DRUID = {
 	"Phrase #1",
 	"Phrase #2",
@@ -54,6 +57,7 @@ RPWORDLIST.entercombat.DRUID = {
 	"Phrase #4",
 	"Phrase #5",
 	}
+```
 
 BUT DON'T FORGET THE COMMAS!
 
@@ -76,6 +80,7 @@ If my custom emote was "eats some pudding.", everyone will see "Syrsa eats some 
 ###4. The fourth one is for RANDOM PHRASES:
 Please look at this example:
 
+```lua
 RPWORDLIST.entercombat.WARRIOR.random = {
 
 	["phrase"] = "I'll BLANK your BLANK!",
@@ -89,6 +94,7 @@ RPWORDLIST.entercombat.WARRIOR.random = {
 		"ribs out", "spine out"},
 
 	}
+```
 
 The keywords BLANK are replaced with a randomly chosen word/phrase from [1] and then [2].
 [1] will always replace the 1st BLANK
