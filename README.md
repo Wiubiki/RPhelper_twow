@@ -123,6 +123,6 @@ Full credit and many thanks to the original authors and contributors of the add-
 - **Mithyk** – Contributed many default RPs.
 - **Duerma** – Developer of RPHelper 2 (The Burning Crusade version).
 
-We did our best to track down the history of this add-on, but since it’s a **very old and discontinued project**, it was difficult to find all contributors.  
-If we missed someone, we sincerely apologize—it wasn’t intentional! Feel free to reach out if you have more info.
+I did my best to track down the history of this add-on, but since it’s a **very old and discontinued project**, it was difficult to find all contributors.  
+If I missed someone, I sincerely apologize—it wasn’t intentional! Feel free to reach out if you have more info.
 
