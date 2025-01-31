@@ -179,7 +179,8 @@ SPELLS.channeled.WARLOCK = {}
 SPELLS.channeled.WARRIOR = {}	-- No channeled spells for Warrior
 
 --/////////////////////////////////////////////////////////////////////--
--- SPELLS
+-- RACIAL SPELLS
+-- This DOES NOT include racial class spells
 --/////////////////////////////////////////////////////////////////////--
 
 SPELLS.instant.NIGHTELF.shadowmeld =        "Shadowmeld"
