@@ -314,6 +314,40 @@ RPWORDLIST.stormstrike.SHAMAN.emote = {}
 RPWORDLIST.stormstrike.SHAMAN.customemote = {}
 RPWORDLIST.stormstrike.SHAMAN.random = {}
 
+-- New Turtle WoW Spells & Abilities
+
+RPWORDLIST.lightning_strike.SHAMAN = {}
+RPWORDLIST.lightning_strike.SHAMAN.emote = {}
+RPWORDLIST.lightning_strike.SHAMAN.customemote = {}
+RPWORDLIST.lightning_strike.SHAMAN.random = {}
+
+RPWORDLIST.water_shield.SHAMAN = {}
+RPWORDLIST.water_shield.SHAMAN.emote = {}
+RPWORDLIST.water_shield.SHAMAN.customemote = {}
+RPWORDLIST.water_shield.SHAMAN.random = {}
+
+RPWORDLIST.earth_shield.SHAMAN = {}
+RPWORDLIST.earth_shield.SHAMAN.emote = {}
+RPWORDLIST.earth_shield.SHAMAN.customemote = {}
+RPWORDLIST.earth_shield.SHAMAN.random = {}
+
+RPWORDLIST.bloodlust.SHAMAN = {}
+RPWORDLIST.bloodlust.SHAMAN.emote = {}
+RPWORDLIST.bloodlust.SHAMAN.customemote = {}
+RPWORDLIST.bloodlust.SHAMAN.random = {}
+
+RPWORDLIST.earthshaker_slam.SHAMAN = {}
+RPWORDLIST.earthshaker_slam.SHAMAN.emote = {}
+RPWORDLIST.earthshaker_slam.SHAMAN.customemote = {}
+RPWORDLIST.earthshaker_slam.SHAMAN.random = {}
+
+-- Tauren Only
+RPWORDLIST.totemic_slam.SHAMAN = {}
+RPWORDLIST.totemic_slam.SHAMAN.emote = {}
+RPWORDLIST.totemic_slam.SHAMAN.customemote = {}
+RPWORDLIST.totemic_slam.SHAMAN.random = {}
+
+
 --=====================================================================--
 -- Restoration
 --=====================================================================--
@@ -386,3 +420,10 @@ RPWORDLIST.chain_heal.SHAMAN = {}
 RPWORDLIST.chain_heal.SHAMAN.emote = {}
 RPWORDLIST.chain_heal.SHAMAN.customemote = {}
 RPWORDLIST.chain_heal.SHAMAN.random = {}
+
+-- New Turtle WoW Spells & Abilities
+
+RPWORDLIST.spirit_link.SHAMAN = {}
+RPWORDLIST.spirit_link.SHAMAN.emote = {}
+RPWORDLIST.spirit_link.SHAMAN.customemote = {}
+RPWORDLIST.spirit_link.SHAMAN.random = {}

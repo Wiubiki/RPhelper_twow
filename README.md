@@ -109,9 +109,10 @@ If there are more [#]s than BLANKs they will be ignored.
 ---
 
 ##🎨 Future Features (Planned)
-In-game GUI for adding & editing sayings (no need to edit LUA files manually).
-Druid Form Suppression (disable /say while in animal form).
-More sayings & spell support for Turtle WoW.
+ - In-game GUI for adding & editing sayings (no need to edit LUA files manually).
+ - Druid Form Suppression (disable /say while in animal form).
+ - A Blood Elf sayings list for players with High Elf characters that want to roleplay as Blood Elves
+ - More sayings & spell support for Turtle WoW.
 
 ---
 
