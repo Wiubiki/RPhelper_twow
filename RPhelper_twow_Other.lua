@@ -13,7 +13,7 @@ function RPH_Toggle()
         RPCONFIG.on = true
         status = "Enabled"
     end
-    DEFAULT_CHAT_FRAME:AddMessage("Roleplaying Helper "..status, 0.0, 1.0, 1.0  )
+    DEFAULT_CHAT_FRAME:AddMessage("Roleplaying Helper for Turtle WoW "..status, 0.0, 1.0, 1.0  )
 end
 
 --////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--

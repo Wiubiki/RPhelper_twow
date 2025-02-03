@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: |cff33ccffRoleplaying Helper|r for Turtle WoW
+## Author: Wiubiki
+## Version: 0.9.0
+## Notes: Automatically RP when certain events occur. Turtle WoW edition
+## SavedVariablesPerCharacter: INTRODUCED, RPCONFIG
+RPhelper_twow.xml

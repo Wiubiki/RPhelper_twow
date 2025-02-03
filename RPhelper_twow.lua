@@ -1,30 +1,9 @@
--- Roleplaying Helper
+-- Roleplaying Helper for Turtle WoW 
+RPHELPER_VERSION = "0.9.0"
 
 -- initialize the RPWORDLIST table
 RPWORDLIST = {}
 
--- Register with myAddOns
-
-RPHELPER_TITLE =       "Roleplaying Helper";
-RPHELPER_VERSION =     "0.90d"
-RPHELPER_RELEASEDATE = "Nov 6, 2006";
-RPHELPER_AUTHOR =      "Talyn";
-RPHELPER_EMAIL =       ""
-RPHELPER_WEBSITE =     "http://ui.worldofwar.net/ui.php?id=2914";
-
-RoleplayingHelperDetails	= {	
-			name =         RPHELPER_TITLE,
-			version =      RPHELPER_VERSION,
-			releaseDate =  RPHELPER_RELEASEDATE,
-			author =       RPHELPER_AUTHOR,
-			email =        RPHELPER_EMAIL,
-			website =      RPHELPER_WEBSITE,
-			category =     MYADDONS_CATEGORY_CHAT,
-			optionsframe = "RPConfigFrame",
-		};
-
-RoleplayingHelperHelp	= {};
-RoleplayingHelperHelp[1] = "Roleplaying Helper lets your character automatically roleplay when certain events occur.\n\nCommands:\n\n/rp\n/rp on\n/rp off";
 
 -- Keybindings
 BINDING_HEADER_RPH = "Roleplaying Helper";
@@ -836,10 +815,6 @@ function RP_OnEvent(event)
 --=====================================================================--
 	if (event == "VARIABLES_LOADED") then
 
-		if(myAddOnsFrame_Register) then
-			myAddOnsFrame_Register(RoleplayingHelperDetails,RoleplayingHelperHelp);
-		end
-
 	   	playerRace, englishRace = UnitRace("player");
 	   	playerClass, englishClass = UnitClass("player");
 
@@ -848,7 +823,8 @@ function RP_OnEvent(event)
         if RPCONFIG.on then 
             status = "(Enabled)"
         end
-		DEFAULT_CHAT_FRAME:AddMessage( "Roleplaying Helper "..RPHELPER_VERSION.." loaded. "..status.." Type:  /rp", 0.0, 1.0, 1.0 )
+		DEFAULT_CHAT_FRAME:AddMessage( "Roleplaying Helper for Turtle WoW v"..RPHELPER_VERSION.." loaded. "..status.." Type:  /rp", 0.0, 1.0, 1.0 )
+		
 --		DEFAULT_CHAT_FRAME:AddMessage( "Your RP traits are: ".. table.concat(RPCONFIG.traits, ", "), 0.0, 1.0, 1.0 )
 --		DEFAULT_CHAT_FRAME:AddMessage( RandInsult(), 0.0, 1.0, 1.0 )
 	end
