@@ -16,8 +16,11 @@
 <Script file="Interface\AddOns\RoleplayingHelper\English\RInsult.lua"/>
 <Script file="Interface\AddOns\RoleplayingHelper\English\REmote.lua"/>
 <Script file="Interface\AddOns\RoleplayingHelper\English\ANY.lua"/>
+<Script file="Interface\AddOns\RoleplayingHelper\English\BLOODELF.lua"/>
 <Script file="Interface\AddOns\RoleplayingHelper\English\DWARF.lua"/>
 <Script file="Interface\AddOns\RoleplayingHelper\English\GNOME.lua"/>
+<Script file="Interface\AddOns\RoleplayingHelper\English\GOBLIN.lua"/>
+<Script file="Interface\AddOns\RoleplayingHelper\English\HIGHELF.lua"/>
 <Script file="Interface\AddOns\RoleplayingHelper\English\HUMAN.lua"/>
 <Script file="Interface\AddOns\RoleplayingHelper\English\NIGHTELF.lua"/>
 <Script file="Interface\AddOns\RoleplayingHelper\English\ORC.lua"/>
@@ -34,34 +37,8 @@
 <Script file="Interface\AddOns\RoleplayingHelper\English\WARLOCK.lua"/>
 <Script file="Interface\AddOns\RoleplayingHelper\English\WARRIOR.lua"/>
 
-<!-- Localization files -->
-<!-- (Currently disabled, I don't know if they work any longer) -->
 
-<!--
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\RInsult.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\REmote.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\ANY.de.lua"/>
 
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\DWARF.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\GNOME.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\HUMAN.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\NIGHTELF.de.lua"/>
-
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\ORC.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\TAUREN.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\TROLL.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\UNDEAD.de.lua"/>
-
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\DRUID.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\HUNTER.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\MAGE.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\PALADIN.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\PRIEST.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\ROGUE.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\SHAMAN.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\WARLOCK.de.lua"/>
-<Script file="Interface\AddOns\RoleplayingHelper\Deutsch\WARRIOR.de.lua"/>
--->
 
 	<Frame name="RPHelper" hidden="true">
 		<Frames>
@@ -246,7 +223,7 @@
 			</OnDragStop>
 		</Scripts>
 
-		<Size><AbsDimension x="399" y="460"/></Size>
+		<Size><AbsDimension x="399" y="550"/></Size>
 	
 		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
 			<BackgroundInsets>
@@ -288,10 +265,22 @@
 					<OnClick> RPListUpdate() </OnClick>
 				</Scripts>
 			</CheckButton>
-			<CheckButton name="$parentCheckButtonDWARF" inherits="OptionsCheckButtonTemplate">
+			<!-- Races List -->
+			<CheckButton name="$parentCheckButtonBLOODELF" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
 					<Offset><AbsDimension x="-75" y="-30"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad> getglobal(this:GetName().."Text"):SetText("Blood Elf"); </OnLoad>
+					<OnClick> RPListUpdate() </OnClick>
+				</Scripts>
+			</CheckButton>			
+			<CheckButton name="$parentCheckButtonDWARF" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
+					<Offset><AbsDimension x="-75" y="-60"/></Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
@@ -302,7 +291,7 @@
 			<CheckButton name="$parentCheckButtonGNOME" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
-					<Offset><AbsDimension x="-75" y="-60"/></Offset>
+					<Offset><AbsDimension x="-75" y="-90"/></Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
@@ -310,10 +299,32 @@
 					<OnClick> RPListUpdate() </OnClick>
 				</Scripts>
 			</CheckButton>
+			<CheckButton name="$parentCheckButtonGOBLIN" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
+					<Offset><AbsDimension x="-75" y="-120"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad> getglobal(this:GetName().."Text"):SetText("Goblin"); </OnLoad>
+					<OnClick> RPListUpdate() </OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="$parentCheckButtonHIGHELF" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
+					<Offset><AbsDimension x="-75" y="-150"/></Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad> getglobal(this:GetName().."Text"):SetText("High Elf"); </OnLoad>
+					<OnClick> RPListUpdate() </OnClick>
+				</Scripts>
+			</CheckButton>
 			<CheckButton name="$parentCheckButtonHUMAN" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
-					<Offset><AbsDimension x="-75" y="-90"/></Offset>
+					<Offset><AbsDimension x="-75" y="-180"/></Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
@@ -324,7 +335,7 @@
 			<CheckButton name="$parentCheckButtonNIGHTELF" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
-					<Offset><AbsDimension x="-75" y="-120"/></Offset>
+					<Offset><AbsDimension x="-75" y="-210"/></Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
@@ -335,7 +346,7 @@
 			<CheckButton name="$parentCheckButtonORC" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
-					<Offset><AbsDimension x="-75" y="-150"/></Offset>
+					<Offset><AbsDimension x="-75" y="-240"/></Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
@@ -346,7 +357,7 @@
 			<CheckButton name="$parentCheckButtonTAUREN" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
-					<Offset><AbsDimension x="-75" y="-180"/></Offset>
+					<Offset><AbsDimension x="-75" y="-270"/></Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
@@ -357,7 +368,7 @@
 			<CheckButton name="$parentCheckButtonTROLL" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
-					<Offset><AbsDimension x="-75" y="-210"/></Offset>
+					<Offset><AbsDimension x="-75" y="-300"/></Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
@@ -368,7 +379,7 @@
 			<CheckButton name="$parentCheckButtonUNDEAD" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
-					<Offset><AbsDimension x="-75" y="-240"/></Offset>
+					<Offset><AbsDimension x="-75" y="-330"/></Offset>
 					</Anchor>
 				</Anchors>
 				<Scripts>
@@ -377,7 +388,7 @@
 				</Scripts>
 			</CheckButton>
 
-
+			<!-- Classes List -->
 			<CheckButton name="$parentCheckButtonDRUID" inherits="OptionsCheckButtonTemplate">
 				<Anchors>
 					<Anchor point="TOP" relativeTo="$parentCheckButtonANY">
