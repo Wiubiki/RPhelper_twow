@@ -642,14 +642,7 @@ SPELLS.instant.SHAMAN.water_walking = 			"Water Walking"
 SPELLS.casttime.SHAMAN.astral_recall = 			"Astral Recall"
 SPELLS.instant.SHAMAN.elemental_mastery = 		"Elemental Mastery"
 SPELLS.instant.SHAMAN.stormstrike = 			"Stormstrike"
--- New Turtle WoW Spells
-SPELLS.instant.SHAMAN.lightning_strike = 		"Lightning Strike"
-SPELLS.instant.SHAMAN.water_shield = 			"Water Shield"
-SPELLS.instant.SHAMAN.earth_shield = 			"Earth Shield"
-SPELLS.instant.SHAMAN.bloodlust = 				"Bloodlust"
-SPELLS.instant.SHAMAN.earthshaker_slam = 		"Earthshaker Slam"
--- Tauren Only
-SPELLS.instant.SHAMAN.totemic_slam = 			"Totemic Slam"
+
 --=====================================================================--
 -- Restoration
 --=====================================================================--
@@ -667,8 +660,28 @@ SPELLS.casttime.SHAMAN.ancestral_spirit = 		"Ancestral Spirit"
 SPELLS.instant.SHAMAN.natures_swiftness = 		"Nature's Swiftness"
 SPELLS.instant.SHAMAN.reincarnation = 			"Reincarnation"
 SPELLS.casttime.SHAMAN.chain_heal = 			"Chain Heal"
+
+
+
+--=====================================================================--
 -- New Turtle WoW Spells
+--=====================================================================--
+
+SPELLS.instant.SHAMAN.lightning_strike = 		"Lightning Strike"
+SPELLS.instant.SHAMAN.water_shield = 			"Water Shield"
+SPELLS.instant.SHAMAN.earth_shield = 			"Earth Shield"
+SPELLS.instant.SHAMAN.bloodlust = 				"Bloodlust"
+SPELLS.instant.SHAMAN.earthshaker_slam = 		"Earthshaker Slam"
 SPELLS.instant.SHAMAN.spirit_link = 			"Spirit Link"
+SPELLS.instant.SHAMAN.calm_elements = 			"Calm Elements"
+SPELLS.instant.SHAMAN.totemic_recall = 			"Totemic Recall"
+-- Tauren Only
+SPELLS.instant.SHAMAN.totemic_slam = 			"Totemic Slam"
+-- Orc Only
+SPELLS.instant.SHAMAN.feral_spirit = 			"Feral Spirit"
+-- Troll Only
+SPELLS.instant.SHAMAN.hex = 					"Hex"
+
 
 
 -------------------------------------------------------------------------

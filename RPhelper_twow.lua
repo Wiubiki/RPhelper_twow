@@ -368,6 +368,10 @@ function RPDefaults( x )
 		RPCONFIG.traits = {"ANY"}
 		if englishRace == "Scourge" then
 			table.insert( RPCONFIG.traits, "UNDEAD" )
+		elseif englishRace == "BloodElf" then
+			table.insert( RPCONFIG.traits, "HIGHELF" )
+		if englishRace == "Goblin" then
+			table.insert( RPCONFIG.traits, "GOBLIN" )
 		else
 			table.insert( RPCONFIG.traits, string.upper(englishRace) )
 		end
