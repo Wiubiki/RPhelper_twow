@@ -183,7 +183,19 @@ SPELLS.channeled.WARRIOR = {}	-- No channeled spells for Warrior
 -- This DOES NOT include racial class spells
 --/////////////////////////////////////////////////////////////////////--
 
-SPELLS.instant.NIGHTELF.shadowmeld =        "Shadowmeld"
+SPELLS.instant.DWARF.dwarfracial =        		"DwarfRacial"
+SPELLS.instant.GNOME.escape_artist =        	"Escape Artist"
+SPELLS.instant.GOBLIN.goblinrecial =        	"GoblinRacial"
+SPELLS.instant.HIGHELF.highelfracial =        	"HighElfRacial"
+SPELLS.instant.HUMAN.humanracial =        		"HumanRacial"
+SPELLS.instant.NIGHTELF.shadowmeld =        	"Shadowmeld"
+SPELLS.instant.ORC.blood_fury =        			"Blood Fury"
+SPELLS.instant.TAUREN.war_stomp =        		"War Stomp"
+SPELLS.instant.TROLL.berserking =        		"Berserking"
+SPELLS.instant.UNDEAD.cannibalize =        		"Cannibalize"
+SPELLS.instant.UNDEAD.will_of_the_forsaken =    "Will of the Forsaken"
+
+
 
 --/////////////////////////////////////////////////////////////////////--
 -- Druid Spells
@@ -251,7 +263,16 @@ SPELLS.instant.DRUID.innervate = 			"Innervate"
 SPELLS.instant.DRUID.gift_of_the_wild = 	"Gift of the Wild"
 SPELLS.instant.DRUID.swiftmend =            "Swiftmend"
 
---SPELLS.instant.DRUID.shadowmeld =           "Shadowmeld"
+--=====================================================================--
+-- New Turtle WoW Spells           
+--=====================================================================--
+
+SPELLS.instant.DRUID.barkskin = 			"Barkskin"
+SPELLS.instant.DRUID.berserk = 				"Berserk"
+SPELLS.instant.DRUID.ferocious_bite = 		"Ferocious Bite"
+SPELLS.instant.DRUID.Savage Bite = 			"Savage Bite"
+SPELLS.instant.DRUID.tree_of_life_form = 	"Tree of Life Form"
+
 
 --//////////////////////////////////////////////////////////////////////////--
 -- Hunter Spells
@@ -312,6 +333,13 @@ SPELLS.instant.HUNTER.mongoose_bite = 		"Mongoose Bite"
 SPELLS.instant.HUNTER.counterattack = 		"Counterattack"
 SPELLS.instant.HUNTER.feign_death = 		"Feign Death"
 SPELLS.instant.HUNTER.wyvern_sting = 		"Wyvern Sting"     
+
+--=====================================================================--
+-- New Turtle WoW Spells           
+--=====================================================================--
+SPELLS.instant.HUNTER.aspect_of_the_wolf = 		"Aspect of the Wolf"
+SPELLS.instant.HUNTER.carve = 					"Carve"
+
 
 
 --//////////////////////////////////////////////////////////////////////////--
@@ -383,6 +411,12 @@ SPELLS.casttime.MAGE.scorch = 					"Scorch"
 SPELLS.instant.MAGE.blast_wave = 				"Blast Wave"
 SPELLS.instant.MAGE.combustion = 				"Combustion"
 
+--=====================================================================--
+-- New Turtle WoW Spells           
+--=====================================================================--
+SPELLS.casttime.MAGE.arcane_brilliance =   		"Arcane Brilliance"
+SPELLS.channeled.MAGE.icicles =   				"Icicles"
+
 
 --//////////////////////////////////////////////////////////////////////////--
 -- Paladin Spells
@@ -447,6 +481,14 @@ SPELLS.casttime.PALADIN.hammer_of_wrath = 				"Hammer of Wrath"
 SPELLS.casttime.PALADIN.holy_wrath = 					"Holy Wrath"
 SPELLS.instant.PALADIN.greater_blessing_of_wisdom = 	"Greater Blessing of Wisdom"
 SPELLS.instant.PALADIN.greater_blessing_of_light = 		"Greater Blessing of Light"
+
+--=====================================================================--
+-- New Turtle WoW Spells           
+--=====================================================================--
+SPELLS.instant.PALADIN.bulwark_of_the_righteous = 		"Bulwark of the Righteous"
+SPELLS.instant.PALADIN.crusader_strike = 				"Crusader Strike"
+SPELLS.instant.PALADIN.hand_of_reckoning = 				"Hand of Reckoning"
+
 
 --//////////////////////////////////////////////////////////////////////////--
 -- Priest Spells
@@ -513,6 +555,22 @@ SPELLS.casttime.PRIEST.shadowguard = 			"Shadowguard"
 SPELLS.instant.PRIEST.touch_of_weakness = 		"Touch of Weakness"
 SPELLS.instant.PRIEST.devouring_plague = 		"Devouring Plague"
 
+--=====================================================================--
+-- New Turtle WoW Spells           
+--=====================================================================--
+SPELLS.instant.PRIEST.champions_bond = 			"Champion's Bond"
+SPELLS.casttime.PRIEST.champions_resolve = 		"Champion's Resolve"
+SPELLS.instant.PRIEST.chastice = 				"Chastice"
+SPELLS.instant.PRIEST.empower_champion = 		"Empower Champion"
+SPELLS.instant.PRIEST.pain_spike = 				"Pain Spike"
+SPELLS.casttime.PRIEST.proclaim_champion = 		"Proclaim Champion"
+SPELLS.instant.PRIEST.silence = 				"Silence"
+SPELLS.casttime.PRIEST.revive_champion = 		"Revive Champion"
+-- Night Elf Only
+SPELLS.instant.PRIEST.searing_shot = 			"Searing Shot"
+
+
+
 
 --//////////////////////////////////////////////////////////////////////////--
 -- Rogue Spells
@@ -574,7 +632,7 @@ SPELLS.casttime.ROGUE.crippling_poison = 	"Crippling Poison"
 SPELLS.casttime.ROGUE.mind_numbing_poison = "Mind Numbing Poison"
 SPELLS.casttime.ROGUE.instant_poison = 		"Instant Poison"
 SPELLS.casttime.ROGUE.deadly_poison = 		"Deadly Poison"
-SPELLS.casttime.ROGUE.wound_poison = 		"Would Poison"
+SPELLS.casttime.ROGUE.wound_poison = 		"Wound Poison"
 SPELLS.instant.ROGUE.blinding_powder = 		"Blinding Powder"
 --[[
 Rogue poisons are grouped in RPHelper, so the following are not used
@@ -596,6 +654,14 @@ SPELLS.casttime.ROGUE.deadly_poison_iii = 		"Deadly Poison III"
 SPELLS.casttime.ROGUE.deadly_poison_iv = 		"Deadly Poison IV"
 SPELLS.casttime.ROGUE.deadly_poison_v = 		"Deadly Poison V"
 ]]
+
+--=====================================================================--
+-- New Turtle WoW Spells           
+--=====================================================================--
+SPELLS.instant.ROGUE.deadly_throw = 			"Deadly Throw"
+SPELLS.instant.ROGUE.exploit_weakness = 		"Exploit Weakness"
+SPELLS.instant.ROGUE.flourish = 				"Flourish"
+SPELLS.instant.ROGUE.surprise_attack = 			"Surprise Attack"
 
 
 --//////////////////////////////////////////////////////////////////////////--
@@ -661,12 +727,9 @@ SPELLS.instant.SHAMAN.natures_swiftness = 		"Nature's Swiftness"
 SPELLS.instant.SHAMAN.reincarnation = 			"Reincarnation"
 SPELLS.casttime.SHAMAN.chain_heal = 			"Chain Heal"
 
-
-
 --=====================================================================--
 -- New Turtle WoW Spells
 --=====================================================================--
-
 SPELLS.instant.SHAMAN.lightning_strike = 		"Lightning Strike"
 SPELLS.instant.SHAMAN.water_shield = 			"Water Shield"
 SPELLS.instant.SHAMAN.earth_shield = 			"Earth Shield"
@@ -681,7 +744,6 @@ SPELLS.instant.SHAMAN.totemic_slam = 			"Totemic Slam"
 SPELLS.instant.SHAMAN.feral_spirit = 			"Feral Spirit"
 -- Troll Only
 SPELLS.instant.SHAMAN.hex = 					"Hex"
-
 
 
 -------------------------------------------------------------------------
@@ -753,6 +815,14 @@ SPELLS.channeled.WARLOCK.hellfire = 			"Hellfire"
 SPELLS.instant.WARLOCK.conflagrate = 			"Conflagrate"    
 SPELLS.casttime.WARLOCK.soul_fire = 			"Soul Fire"
 
+--=====================================================================--
+-- New Turtle WoW Spells           
+--=====================================================================--
+SPELLS.channeled.WARLOCK.dark_harvest = 		"Dark Harvest"  
+SPELLS.channeled.WARLOCK.demon_portal = 		"Demon Portal"
+SPELLS.instant.WARLOCK.inferno = 				"Inferno"
+SPELLS.channeled.WARLOCK.mana_funnel = 			"Mana Funnel"  
+SPELLS.casttime.WARLOCK.ritual_of_doom = 		"Ritual of Doom"
 
 
 -------------------------------------------------------------------------
@@ -808,4 +878,11 @@ SPELLS.instant.WARRIOR.shoot_gun =          "Shoot Gun"
 SPELLS.instant.WARRIOR.shoot_bow =          "Shoot Bow"
 SPELLS.instant.WARRIOR.shoot_crossbow =     "Shoot Crossbow"
 SPELLS.instant.WARRIOR.throw =              "Throw"
+
+--=====================================================================--
+-- New Turtle WoW Spells           
+--=====================================================================--
+SPELLS.instant.WARRIOR.counterattack =          "Counterattack"
+SPELLS.casttime.WARRIOR.decisive_strike =       "Decisive Strike"
+SPELLS.instant.WARRIOR.intervene =              "Intervene"
 
