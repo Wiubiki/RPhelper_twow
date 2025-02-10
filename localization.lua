@@ -137,6 +137,7 @@ SPELLS.instant = {}
 SPELLS.next_melee = {}
 SPELLS.channeled = {}
 
+SPELLS.casttime.TAUREN = {}
 SPELLS.casttime.DRUID = {}
 SPELLS.casttime.HUNTER = {}
 SPELLS.casttime.MAGE = {}
@@ -147,7 +148,16 @@ SPELLS.casttime.SHAMAN = {}
 SPELLS.casttime.WARLOCK = {}
 SPELLS.casttime.WARRIOR = {}
 
+SPELLS.instant.DWARF = {}
+SPELLS.instant.GNOME = {}
+SPELLS.instant.GOBLIN = {}
+SPELLS.instant.HIGHELF = {}
+SPELLS.instant.HUMAN = {}
 SPELLS.instant.NIGHTELF = {}
+SPELLS.instant.ORC = {}
+SPELLS.instant.TAUREN = {}
+SPELLS.instant.TROLL = {}
+SPELLS.instant.UNDEAD = {}
 SPELLS.instant.DRUID = {}
 SPELLS.instant.HUNTER = {}
 SPELLS.instant.MAGE = {}
@@ -183,14 +193,14 @@ SPELLS.channeled.WARRIOR = {}	-- No channeled spells for Warrior
 -- This DOES NOT include racial class spells
 --/////////////////////////////////////////////////////////////////////--
 
-SPELLS.instant.DWARF.dwarfracial =        		"DwarfRacial"
-SPELLS.instant.GNOME.escape_artist =        	"Escape Artist"
-SPELLS.instant.GOBLIN.goblinrecial =        	"GoblinRacial"
+--SPELLS.instant.DWARF.dwarfracial =        		"DwarfRacial"--
+--SPELLS.instant.GNOME.escape_artist =        	"Escape Artist"
+SPELLS.instant.GOBLIN.exit_strategy =        	"Exit Strategy"
 SPELLS.instant.HIGHELF.highelfracial =        	"HighElfRacial"
 SPELLS.instant.HUMAN.humanracial =        		"HumanRacial"
 SPELLS.instant.NIGHTELF.shadowmeld =        	"Shadowmeld"
 SPELLS.instant.ORC.blood_fury =        			"Blood Fury"
-SPELLS.instant.TAUREN.war_stomp =        		"War Stomp"
+SPELLS.casttime.TAUREN.war_stomp =        		"War Stomp"
 SPELLS.instant.TAUREN.plaistriding =        	"Plainstriding"
 SPELLS.instant.TROLL.berserking =        		"Berserking"
 SPELLS.instant.UNDEAD.cannibalize =        		"Cannibalize"
@@ -267,7 +277,7 @@ SPELLS.instant.DRUID.swiftmend =            "Swiftmend"
 -- New Turtle WoW Spells           
 --=====================================================================--
 SPELLS.instant.DRUID.berserk = 				"Berserk"
-SPELLS.instant.DRUID.Savage Bite = 			"Savage Bite"
+SPELLS.instant.DRUID.savage_bite = 			"Savage Bite"
 SPELLS.instant.DRUID.tree_of_life_form = 	"Tree of Life Form"
 
 

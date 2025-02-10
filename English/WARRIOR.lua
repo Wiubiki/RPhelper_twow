@@ -177,7 +177,7 @@ RPWORDLIST.charge.WARRIOR.customemote = {
     "yells PP head off as SP runs into battle.",
     "charges at TARGET.",
     "screams a battle cry and charges into combat.",
-    }
+}
 RPWORDLIST.charge.WARRIOR.random = {}
 
 RPWORDLIST.rend.WARRIOR = {"Bleed for me, TARGET."}

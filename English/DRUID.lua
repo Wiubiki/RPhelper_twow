@@ -260,10 +260,7 @@ RPWORDLIST.dire_bear_form.DRUID.emote = {"ROAR"}
 RPWORDLIST.dire_bear_form.DRUID.customemote = {}
 RPWORDLIST.dire_bear_form.DRUID.random = {}    
     	                                         
-RPWORDLIST.leader_of_the_pack.DRUID = {}
-RPWORDLIST.leader_of_the_pack.DRUID.emote = {}
-RPWORDLIST.leader_of_the_pack.DRUID.customemote = {}
-RPWORDLIST.leader_of_the_pack.DRUID.random = {} 
+
 --=====================================================================--
 -- Balance        
 --=====================================================================-- 

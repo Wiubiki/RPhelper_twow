@@ -370,13 +370,14 @@ function RPDefaults( x )
 			table.insert( RPCONFIG.traits, "UNDEAD" )
 		elseif englishRace == "BloodElf" then
 			table.insert( RPCONFIG.traits, "HIGHELF" )
-		if englishRace == "Goblin" then
+		elseif englishRace == "Goblin" then  -- ✅ Fixed `elseif`
 			table.insert( RPCONFIG.traits, "GOBLIN" )
 		else
 			table.insert( RPCONFIG.traits, string.upper(englishRace) )
 		end
 		table.insert( RPCONFIG.traits, englishClass )
-	end
+	end  -- ✅ Correctly closes the block
+
 
 	-- if you take your class out of RPCONFIG.traits, you might still want to RP spells
 	if ( RPCONFIG.UseSpellRPs == nil ) or ( x == "all" ) or ( x == "trait" ) or ( x == "traits" ) then
@@ -1957,4 +1958,4 @@ RPHelper_DebugPhrases = {
 
 	}
 ]]
-
+--

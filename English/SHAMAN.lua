@@ -367,7 +367,7 @@ RPWORDLIST.stormstrike.SHAMAN.customemote = {
 	" surges forward, his weapon crackling with elemental energy.",
 	"’s weapon crackles with raw lightning as he strikes with ferocious speed.",
 	"surges forward, his weapon a blur of motion and electric fury.",
-
+}
 
 --=====================================================================--
 -- Restoration

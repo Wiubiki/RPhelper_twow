@@ -14,7 +14,6 @@ RPWORDLIST.entercombat.HUNTER = {
 }
 RPWORDLIST.entercombat.HUNTER.emote = {"CHARGE", "ROAR"}
 RPWORDLIST.entercombat.HUNTER.customemote = {"narrows PP eyes, locking onto TARGET like a predator eyeing its prey."}
-}
 RPWORDLIST.entercombat.HUNTER.random = {}
 --=====================================================================--
 -- When you LEAVE COMBAT (when the crossed swords leave your level #)
