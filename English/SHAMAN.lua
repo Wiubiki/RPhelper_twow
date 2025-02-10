@@ -136,19 +136,41 @@ RPWORDLIST.resurrect.SHAMAN.random = {}
 --=====================================================================--
 -- Elemental Combat
 --=====================================================================-- 
-RPWORDLIST.earth_shock.SHAMAN = {}
+RPWORDLIST.earth_shock.SHAMAN = {
+	"Feel the ground tremble beneath you!",
+	"The Earth Mother strikes!",
+	"Fall before the strength of the Earth!",
+}
 RPWORDLIST.earth_shock.SHAMAN.emote = {}
-RPWORDLIST.earth_shock.SHAMAN.customemote = {}
+RPWORDLIST.earth_shock.SHAMAN.customemote = {
+	" stomps the ground, sending a shockwave towards TARGET.",
+	"’s hand glows with the brown and gold hues of the earth as he sends a concussive wave forward."
+	
+}
 RPWORDLIST.earth_shock.SHAMAN.random = {}
                           
-RPWORDLIST.flame_shock.SHAMAN = {}
+RPWORDLIST.flame_shock.SHAMAN = {
+	"Feel the fury of the eternal flame!",
+	"Cleansed by Fire!",
+}
 RPWORDLIST.flame_shock.SHAMAN.emote = {}
-RPWORDLIST.flame_shock.SHAMAN.customemote = {}
+RPWORDLIST.flame_shock.SHAMAN.customemote = {
+	"gestures sharply, a spark of fire igniting upon his foe.",
+	"thrusts his palm forward, a burst of fire sparking upon his enemy.",
+	"thrusts his palm forward as he summons a fiery surge.",
+}
 RPWORDLIST.flame_shock.SHAMAN.random = {}  
                           
-RPWORDLIST.frost_shock.SHAMAN = {}
+RPWORDLIST.frost_shock.SHAMAN = {
+	"The chill of the ancestors claims you!",
+	"Your movements are as frozen as your fate!",
+	"The cold shall consume you!",
+}
 RPWORDLIST.frost_shock.SHAMAN.emote = {}
-RPWORDLIST.frost_shock.SHAMAN.customemote = {}
+RPWORDLIST.frost_shock.SHAMAN.customemote = {
+	"exhales sharply as frost gathers in his palm, releasing it with a shattering burst.",
+	"takes a deep breath as athin layer of ice crackles under his feet as he channels a frosty shock.",
+}
 RPWORDLIST.frost_shock.SHAMAN.random = {}
                     
 RPWORDLIST.earthbind_totem.SHAMAN = {}
@@ -176,14 +198,23 @@ RPWORDLIST.magma_totem.SHAMAN.emote = {}
 RPWORDLIST.magma_totem.SHAMAN.customemote = {}
 RPWORDLIST.magma_totem.SHAMAN.random = {} 
 
-RPWORDLIST.lightning_bolt.SHAMAN = {}
+RPWORDLIST.lightning_bolt.SHAMAN = {
+	"The storm’s judgment is swift!",
+	"Lightning cleaves the darkness!",
+	"Feel the storm’s wrath!",
+}
 RPWORDLIST.lightning_bolt.SHAMAN.emote = {}
 RPWORDLIST.lightning_bolt.SHAMAN.customemote = {}
 RPWORDLIST.lightning_bolt.SHAMAN.random = {}   
 
-RPWORDLIST.purge.SHAMAN = {}
+RPWORDLIST.purge.SHAMAN = {
+	"The spirits strip you of your corruption!",
+	"No foul magic can stand against me!",
+}
 RPWORDLIST.purge.SHAMAN.emote = {}
-RPWORDLIST.purge.SHAMAN.customemote = {}
+RPWORDLIST.purge.SHAMAN.customemote = {
+	"swipes his hand through the air, sending a burst of spiritual energy, dispelling the magical corruption.",
+}
 RPWORDLIST.purge.SHAMAN.random = {}   
 
 RPWORDLIST.elemental_focus.SHAMAN = {}
@@ -191,7 +222,11 @@ RPWORDLIST.elemental_focus.SHAMAN.emote = {}
 RPWORDLIST.elemental_focus.SHAMAN.customemote = {}
 RPWORDLIST.elemental_focus.SHAMAN.random = {}
 
-RPWORDLIST.chain_lightning.SHAMAN = {}
+RPWORDLIST.chain_lightning.SHAMAN = {
+	"None shall escape the storm’s fury!",
+	"The storm leaps from one to another!",
+	"The storm’s fury knows no bounds!",
+}
 RPWORDLIST.chain_lightning.SHAMAN.emote = {}
 RPWORDLIST.chain_lightning.SHAMAN.customemote = {}
 RPWORDLIST.chain_lightning.SHAMAN.random = {}
@@ -214,11 +249,19 @@ RPWORDLIST.frostbrand_weapon.SHAMAN.emote = {}
 RPWORDLIST.frostbrand_weapon.SHAMAN.customemote = {}
 RPWORDLIST.frostbrand_weapon.SHAMAN.random = {}     
 
-RPWORDLIST.windfury_weapon.SHAMAN = {}
+RPWORDLIST.windfury_weapon.SHAMAN = {
+	"Winds of fury, guide my strikes!",
+	"Storm and gale, lend me your strength!",
+	"The wind sings through my weapon!",
+}
 RPWORDLIST.windfury_weapon.SHAMAN.emote = {}
-RPWORDLIST.windfury_weapon.SHAMAN.customemote = {}
+RPWORDLIST.windfury_weapon.SHAMAN.customemote = {
+	"runs his hand along his weapon, a faint whirlwind forming around it as sparks of electricity dance in the air.",
+	"'s weapon gleams with the energy of the storm and the hum of crackling thunder grows louder around it.",
+	"'s weapons is surrounded by a swirling storm as it becomes imbued with the ferocity of the wind.",
+}
 RPWORDLIST.windfury_weapon.SHAMAN.random = {}
-                                              
+
 RPWORDLIST.stoneskin_totem.SHAMAN = {}
 RPWORDLIST.stoneskin_totem.SHAMAN.emote = {}
 RPWORDLIST.stoneskin_totem.SHAMAN.customemote = {}
@@ -274,7 +317,11 @@ RPWORDLIST.grace_of_air_totem.SHAMAN.emote = {}
 RPWORDLIST.grace_of_air_totem.SHAMAN.customemote = {}
 RPWORDLIST.grace_of_air_totem.SHAMAN.random = {}
 
-RPWORDLIST.lightning_shield.SHAMAN = {}
+RPWORDLIST.lightning_shield.SHAMAN = {
+	"The storm guards me!",
+	"Let those who strike me taste the storm’s fury!",
+	"The spirits surround me in thunder and lightning!",
+}
 RPWORDLIST.lightning_shield.SHAMAN.emote = {}
 RPWORDLIST.lightning_shield.SHAMAN.customemote = {}
 RPWORDLIST.lightning_shield.SHAMAN.random = {}     
@@ -309,33 +356,60 @@ RPWORDLIST.elemental_mastery.SHAMAN.emote = {}
 RPWORDLIST.elemental_mastery.SHAMAN.customemote = {}
 RPWORDLIST.elemental_mastery.SHAMAN.random = {}   
 
-RPWORDLIST.stormstrike.SHAMAN = {}
+RPWORDLIST.stormstrike.SHAMAN = {
+	"The storm lends me its strength!",
+	"By the thunder’s might, fall before me!",
+	"Feel the storm’s vengeance!",
+	"Spirits of Storm and Thunder strike through me!",
+}
 RPWORDLIST.stormstrike.SHAMAN.emote = {}
-RPWORDLIST.stormstrike.SHAMAN.customemote = {}
-RPWORDLIST.stormstrike.SHAMAN.random = {}
+RPWORDLIST.stormstrike.SHAMAN.customemote = {
+	" surges forward, his weapon crackling with elemental energy.",
+	"’s weapon crackles with raw lightning as he strikes with ferocious speed.",
+	"surges forward, his weapon a blur of motion and electric fury.",
 
 
 --=====================================================================--
 -- Restoration
 --=====================================================================--
-RPWORDLIST.healing_wave.SHAMAN = {}
+RPWORDLIST.healing_wave.SHAMAN = {
+	"The Earth Mother’s grace restores.",
+	"The spirits guide my hands to heal.",
+	"Let the rivers of life heal.",
+}
 RPWORDLIST.healing_wave.SHAMAN.emote = {}
 RPWORDLIST.healing_wave.SHAMAN.customemote = {}
 RPWORDLIST.healing_wave.SHAMAN.random = {}
 
-RPWORDLIST.lesser_healing_wave.SHAMAN = {}
+RPWORDLIST.lesser_healing_wave.SHAMAN = {
+	"Spirits, mend this wound swiftly!",
+}
 RPWORDLIST.lesser_healing_wave.SHAMAN.emote = {}
-RPWORDLIST.lesser_healing_wave.SHAMAN.customemote = {}
+RPWORDLIST.lesser_healing_wave.SHAMAN.customemote = {
+	"s hands glow briefly as he releases a quick pulse of healing energy.",
+}
 RPWORDLIST.lesser_healing_wave.SHAMAN.random = {}      
 
-RPWORDLIST.cure_poison.SHAMAN = {}
+RPWORDLIST.cure_poison.SHAMAN = {
+	"The Earth Mother cleanses body and soul.",
+	"The poison fades; the spirits endure.",
+	"No poison shall hold sway under my watch.",
+}
 RPWORDLIST.cure_poison.SHAMAN.emote = {}
-RPWORDLIST.cure_poison.SHAMAN.customemote = {}
-RPWORDLIST.cure_poison.SHAMAN.random = {}     
+RPWORDLIST.cure_poison.SHAMAN.customemote = {
+	" sends a ripple of cleansing energy , driving out the foul influence of the poison.",
+}
+RPWORDLIST.cure_poison.SHAMAN.random = {}
 
-RPWORDLIST.cure_disease.SHAMAN = {}
+RPWORDLIST.cure_disease.SHAMAN = {
+	"The Earth Mother cleanses your body and soul.",
+	"The desiease fades; the spirits endure.",
+	"No desease shall hold sway under my watch.",
+}
 RPWORDLIST.cure_disease.SHAMAN.emote = {}
-RPWORDLIST.cure_disease.SHAMAN.customemote = {}
+RPWORDLIST.cure_disease.SHAMAN.customemote = {
+		" sends a ripple of cleansing energy , driving out the foul influence of the disease",
+}
 RPWORDLIST.cure_disease.SHAMAN.random = {}    
 
 RPWORDLIST.tremor_totem.SHAMAN = {}
@@ -368,9 +442,15 @@ RPWORDLIST.mana_tide_totem.SHAMAN.emote = {}
 RPWORDLIST.mana_tide_totem.SHAMAN.customemote = {}
 RPWORDLIST.mana_tide_totem.SHAMAN.random = {}
 
-RPWORDLIST.ancestral_spirit.SHAMAN = {}
+RPWORDLIST.ancestral_spirit.SHAMAN = {
+	"Return TARGET, guided by the spirits of old.",
+	"The ancestors call you, TARGET, back to the living.",
+	"Your journey is not yet complete; rise once more TARGET!.",
+}
 RPWORDLIST.ancestral_spirit.SHAMAN.emote = {}
-RPWORDLIST.ancestral_spirit.SHAMAN.customemote = {}
+RPWORDLIST.ancestral_spirit.SHAMAN.customemote = {
+	"kneels beside the fallen TARGET, whispering to the spirits as a pale light surrounds them.",
+}
 RPWORDLIST.ancestral_spirit.SHAMAN.random = {}  
 
 RPWORDLIST.natures_swiftness.SHAMAN = {}
@@ -397,18 +477,37 @@ RPWORDLIST.spirit_link.SHAMAN.emote = {}
 RPWORDLIST.spirit_link.SHAMAN.customemote = {}
 RPWORDLIST.spirit_link.SHAMAN.random = {}
 
-RPWORDLIST.lightning_strike.SHAMAN = {}
+RPWORDLIST.lightning_strike.SHAMAN = {
+	"Lightning and fury, unite with my strike!",
+ 	"By the storm, Elements guide my weapon!",
+ 	"Lightning cleaves the darkness!"
+}
 RPWORDLIST.lightning_strike.SHAMAN.emote = {}
-RPWORDLIST.lightning_strike.SHAMAN.customemote = {}
-RPWORDLIST.lightning_strike.SHAMAN.random = {}
+RPWORDLIST.lightning_strike.SHAMAN.customemote = {
+ 	"’s weapon crackles with electricity as the wind gathers around his weapon for a strike."
+}
+RPWORDLIST.lightning_strike.SHAMAN.random = {} 
 
-RPWORDLIST.water_shield.SHAMAN = {}
-RPWORDLIST.water_shield.SHAMAN.emote = {}
+RPWORDLIST.water_shield.SHAMAN = {
+	"The waters flow around me, granting life and renewal.",
+	"The Earth Mother’s rivers protect and sustain me.",
+	"Spirits of the stream, guide my path.",
+}
+RPWORDLIST.water_shield.SHAMAN.emote = {
+	" is encircled by a shimmering sphere of water and droplets swirling in graceful motion around him",
+	" gestures with a flowing motion, and a soothing ripple of water forms a shield around him.",
+}
 RPWORDLIST.water_shield.SHAMAN.customemote = {}
 RPWORDLIST.water_shield.SHAMAN.random = {}
 
-RPWORDLIST.earth_shield.SHAMAN = {}
-RPWORDLIST.earth_shield.SHAMAN.emote = {}
+RPWORDLIST.earth_shield.SHAMAN = {
+	"The earth itself rises to protect me!",
+	"The mountains lend me their strength.",
+	"The Earth Mother steadies my spirit.",
+}
+RPWORDLIST.earth_shield.SHAMAN.emote = {
+	" places a hand on the ground, and a faint rumble is heard as stones and dust swirl into a protective aura.",
+}
 RPWORDLIST.earth_shield.SHAMAN.customemote = {}
 RPWORDLIST.earth_shield.SHAMAN.random = {}
 
