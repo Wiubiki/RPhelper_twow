@@ -191,6 +191,7 @@ SPELLS.instant.HUMAN.humanracial =        		"HumanRacial"
 SPELLS.instant.NIGHTELF.shadowmeld =        	"Shadowmeld"
 SPELLS.instant.ORC.blood_fury =        			"Blood Fury"
 SPELLS.instant.TAUREN.war_stomp =        		"War Stomp"
+SPELLS.instant.TAUREN.plaistriding =        	"Plainstriding"
 SPELLS.instant.TROLL.berserking =        		"Berserking"
 SPELLS.instant.UNDEAD.cannibalize =        		"Cannibalize"
 SPELLS.instant.UNDEAD.will_of_the_forsaken =    "Will of the Forsaken"
@@ -227,7 +228,7 @@ SPELLS.instant.DRUID.track_humanoids = 		"Track Humanoids"
 SPELLS.instant.DRUID.frenzied_regeneration = "Frenzied Regeneration"       
 SPELLS.instant.DRUID.pounce = 				"Pounce"       
 SPELLS.instant.DRUID.dire_bear_form = 		"Dire Bear Form"   
-SPELLS.instant.DRUID.leader_of_the_pack = 	"Leader of the Pack"
+--SPELLS.instant.DRUID.leader_of_the_pack = 	"Leader of the Pack" ==Now it's a passive== --
 --=====================================================================--
 -- Balance        
 --=====================================================================-- 
@@ -262,14 +263,10 @@ SPELLS.instant.DRUID.tranquility = 			"Tranquility"
 SPELLS.instant.DRUID.innervate = 			"Innervate"
 SPELLS.instant.DRUID.gift_of_the_wild = 	"Gift of the Wild"
 SPELLS.instant.DRUID.swiftmend =            "Swiftmend"
-
 --=====================================================================--
 -- New Turtle WoW Spells           
 --=====================================================================--
-
-SPELLS.instant.DRUID.barkskin = 			"Barkskin"
 SPELLS.instant.DRUID.berserk = 				"Berserk"
-SPELLS.instant.DRUID.ferocious_bite = 		"Ferocious Bite"
 SPELLS.instant.DRUID.Savage Bite = 			"Savage Bite"
 SPELLS.instant.DRUID.tree_of_life_form = 	"Tree of Life Form"
 
@@ -300,7 +297,7 @@ SPELLS.instant.HUNTER.arcane_shot = 		"Arcane Shot"
 SPELLS.instant.HUNTER.concussive_shot = 	"Concussive Shot"
 SPELLS.instant.HUNTER.distracting_shot = 	"Distracting Shot"
 SPELLS.instant.HUNTER.multi_shot = 			"Multi-Shot"
-SPELLS.instant.HUNTER.aimed_shot = 		"Aimed Shot" -- casttime
+SPELLS.casttime.HUNTER.aimed_shot = 		"Aimed Shot" -- casttime
 SPELLS.instant.HUNTER.scatter_shot = 		"Scatter Shot"  
 SPELLS.instant.HUNTER.serpent_sting = 		"Serpent Sting"
 SPELLS.instant.HUNTER.scorpid_sting = 		"Scorpid Sting"
@@ -332,14 +329,14 @@ SPELLS.instant.HUNTER.wing_clip = 			"Wing Clip"
 SPELLS.instant.HUNTER.mongoose_bite = 		"Mongoose Bite"
 SPELLS.instant.HUNTER.counterattack = 		"Counterattack"
 SPELLS.instant.HUNTER.feign_death = 		"Feign Death"
-SPELLS.instant.HUNTER.wyvern_sting = 		"Wyvern Sting"     
+--SPELLS.instant.HUNTER.wyvern_sting = 		"Wyvern Sting"  ==Has been removed in Turtle WoW== --   
 
 --=====================================================================--
 -- New Turtle WoW Spells           
 --=====================================================================--
 SPELLS.instant.HUNTER.aspect_of_the_wolf = 		"Aspect of the Wolf"
 SPELLS.instant.HUNTER.carve = 					"Carve"
-
+SPELLS.casttime.HUNTER.steady_shot = 			"Steady Shot"
 
 
 --//////////////////////////////////////////////////////////////////////////--
@@ -414,7 +411,6 @@ SPELLS.instant.MAGE.combustion = 				"Combustion"
 --=====================================================================--
 -- New Turtle WoW Spells           
 --=====================================================================--
-SPELLS.casttime.MAGE.arcane_brilliance =   		"Arcane Brilliance"
 SPELLS.channeled.MAGE.icicles =   				"Icicles"
 
 
@@ -481,7 +477,6 @@ SPELLS.casttime.PALADIN.hammer_of_wrath = 				"Hammer of Wrath"
 SPELLS.casttime.PALADIN.holy_wrath = 					"Holy Wrath"
 SPELLS.instant.PALADIN.greater_blessing_of_wisdom = 	"Greater Blessing of Wisdom"
 SPELLS.instant.PALADIN.greater_blessing_of_light = 		"Greater Blessing of Light"
-
 --=====================================================================--
 -- New Turtle WoW Spells           
 --=====================================================================--
@@ -658,6 +653,7 @@ SPELLS.casttime.ROGUE.deadly_poison_v = 		"Deadly Poison V"
 --=====================================================================--
 -- New Turtle WoW Spells           
 --=====================================================================--
+SPELLS.instant.ROGUE.agitating_poison = 		"Agitating Poison"
 SPELLS.instant.ROGUE.deadly_throw = 			"Deadly Throw"
 SPELLS.instant.ROGUE.exploit_weakness = 		"Exploit Weakness"
 SPELLS.instant.ROGUE.flourish = 				"Flourish"
@@ -814,7 +810,6 @@ SPELLS.instant.WARLOCK.shadowburn = 			"Shadowburn"
 SPELLS.channeled.WARLOCK.hellfire = 			"Hellfire"  
 SPELLS.instant.WARLOCK.conflagrate = 			"Conflagrate"    
 SPELLS.casttime.WARLOCK.soul_fire = 			"Soul Fire"
-
 --=====================================================================--
 -- New Turtle WoW Spells           
 --=====================================================================--
@@ -878,11 +873,9 @@ SPELLS.instant.WARRIOR.shoot_gun =          "Shoot Gun"
 SPELLS.instant.WARRIOR.shoot_bow =          "Shoot Bow"
 SPELLS.instant.WARRIOR.shoot_crossbow =     "Shoot Crossbow"
 SPELLS.instant.WARRIOR.throw =              "Throw"
-
 --=====================================================================--
 -- New Turtle WoW Spells           
 --=====================================================================--
 SPELLS.instant.WARRIOR.counterattack =          "Counterattack"
 SPELLS.casttime.WARRIOR.decisive_strike =       "Decisive Strike"
 SPELLS.instant.WARRIOR.intervene =              "Intervene"
-

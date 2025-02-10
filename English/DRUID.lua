@@ -96,7 +96,7 @@ RPWORDLIST.youheal.DRUID.random = {}
 --=====================================================================--
 RPWORDLIST.youcritheal.DRUID = {}
 RPWORDLIST.youcritheal.DRUID.emote = {}
-RPWORDLIST.youcritheal.DRUID.customemote = {"thanks Elune for a critical heal.","smiles at PP critical heal."}
+RPWORDLIST.youcritheal.DRUID.customemote = {}
 RPWORDLIST.youcritheal.DRUID.random = {}
 --=====================================================================--
 --  Friendly NPC talks
@@ -128,10 +128,7 @@ RPWORDLIST.npctalksenemy.DRUID.random = {}
 --=====================================================================--
 RPWORDLIST.resurrect.DRUID = {}
 RPWORDLIST.resurrect.DRUID.emote = {}
-RPWORDLIST.resurrect.DRUID.customemote = {
-    "kisses the earth, spins through the fresh air, and gives thanks to Elune.",
-    "is overjoyed at feeling all of living nature around OP once more.",
-}
+RPWORDLIST.resurrect.DRUID.customemote = {}
 RPWORDLIST.resurrect.DRUID.random = {}
 
 
@@ -203,7 +200,7 @@ RPWORDLIST.rake.DRUID.emote = {}
 RPWORDLIST.rake.DRUID.customemote = {}
 RPWORDLIST.rake.DRUID.random = {}           
     	                                         
-RPWORDLIST.tigers_fury.DRUID = {"feel the tiger's fury!"}
+RPWORDLIST.tigers_fury.DRUID = {"Feel the tiger's fury!"}
 RPWORDLIST.tigers_fury.DRUID.emote = {"ROAR"}
 RPWORDLIST.tigers_fury.DRUID.customemote = {"roars furiously."}
 RPWORDLIST.tigers_fury.DRUID.random = {}     
@@ -348,9 +345,7 @@ RPWORDLIST.teleport_moonglade.DRUID = {}
 RPWORDLIST.teleport_moonglade.DRUID.emote = {}
 RPWORDLIST.teleport_moonglade.DRUID.customemote = {
     "channels arcane forces within OPself and concentrates on Moonglade.",
-    "asks Elune to take OP to Moonglade.",
     "feels Moonglade's call as SP summons arcane powers.",
-    "evokes Elune's arcane powers and visualizes Nighthaven."
 }
 RPWORDLIST.teleport_moonglade.DRUID.random = {}
 --=====================================================================--
@@ -384,7 +379,6 @@ RPWORDLIST.insect_swarm.DRUID.random = {}
 RPWORDLIST.rebirth.DRUID = {
     "TARGET you've failed at life! However, I believe in second chances...",
     "You're not getting off the hook that easily, TARGET!",
-    "Elune! Hear my call and restore life to TARGET!",
     
 }
 RPWORDLIST.rebirth.DRUID.emote = {}
@@ -443,8 +437,20 @@ RPWORDLIST.hearthstone.DRUID.emote = {}
 RPWORDLIST.hearthstone.DRUID.customemote = {}
 RPWORDLIST.hearthstone.DRUID.random = {}
 
--- night elf racial
---RPWORDLIST.shadowmeld.DRUID = {}
---RPWORDLIST.shadowmeld.DRUID.emote = {}
---RPWORDLIST.shadowmeld.DRUID.customemote = {"fades into the shadows.", "disappears for a bit.", "thinks SP'll hide now."}
---RPWORDLIST.shadowmeld.DRUID.random = {}
+--=====================================================================--
+-- New Turtle WoW Spells           
+--=====================================================================--
+RPWORDLIST.berserk.DRUID = {}
+RPWORDLIST.berserk.DRUID.emote = {}
+RPWORDLIST.berserk.DRUID.customemote = {}
+RPWORDLIST.berserk.DRUID.random = {}
+
+RPWORDLIST.savage_bite.DRUID = {}
+RPWORDLIST.savage_bite.DRUID.emote = {}
+RPWORDLIST.savage_bite.DRUID.customemote = {}
+RPWORDLIST.savage_bite.DRUID.random = {}
+
+RPWORDLIST.tree_of_life_form.DRUID = {}
+RPWORDLIST.tree_of_life_form.DRUID.emote = {}
+RPWORDLIST.tree_of_life_form.DRUID.customemote = {}
+RPWORDLIST.tree_of_life_form.DRUID.random = {}

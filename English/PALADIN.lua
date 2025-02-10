@@ -7,11 +7,9 @@
 --=====================================================================--
 RPWORDLIST.entercombat.PALADIN = {
 	"I will bring honor to my family and my kingdom!",
-	"Light, guide my blade!",
 	"Light, give me strength!",
 	"My strength is the holy light!",
 	"My church is the field of battle - time to worship...",
-	"It's hammer time!",
 	"I hold you in contempt...",
 	"Shall I be your executioner?",
 	"Face the hammer of justice!",
@@ -19,9 +17,6 @@ RPWORDLIST.entercombat.PALADIN = {
 	"Prove your worth in the test of arms under the light!",
 	"Might I have the pleasure of your name before I crush your skull?",
 	"All must fall before the might and right of my cause, you shall be next!",
-	"I'm afraid I'm gonna have to kill you now.",
-	"Prepare to die!",
-	"I must swat you like the insignificant insect you are!",
 }
 RPWORDLIST.entercombat.PALADIN.emote = {"CHARGE SELF",} 
 RPWORDLIST.entercombat.PALADIN.customemote = {}
@@ -30,91 +25,124 @@ RPWORDLIST.entercombat.PALADIN.random = {}
 -- When you LEAVE COMBAT (when the crossed swords leave your level #)
 --=====================================================================--
 RPWORDLIST.leavecombat.PALADIN = {
-	"My thanks for the lively scrap.",
+    "The Light sees me through another battle.",
+    "Justice prevails once more.",
 }
-RPWORDLIST.leavecombat.PALADIN.emote = {}  
-RPWORDLIST.leavecombat.PALADIN.customemote = {}
+RPWORDLIST.leavecombat.PALADIN.emote = {}
+RPWORDLIST.leavecombat.PALADIN.customemote = {"lowers PP weapon, offering a solemn nod."}
 RPWORDLIST.leavecombat.PALADIN.random = {}
+
 --=====================================================================--
---  HURT: when you get HIT & you have LESS HEALTH than the last time you got hit
+-- HURT: when you get HIT & you have LESS HEALTH than the last time you got hit
 --=====================================================================--
-RPWORDLIST.hurt.PALADIN = {}
-RPWORDLIST.hurt.PALADIN.emote = {}        
-RPWORDLIST.hurt.PALADIN.customemote = {}
+RPWORDLIST.hurt.PALADIN = {
+    "The Light shields my soul!",
+    "I shall endure!",
+}
+RPWORDLIST.hurt.PALADIN.emote = {}
+RPWORDLIST.hurt.PALADIN.customemote = {"winces but stands firm against the attack."}
 RPWORDLIST.hurt.PALADIN.random = {}
+
 --=====================================================================--
 -- ABSORB: Creature or hostile player attacks but you absorb the damage.
--- For example: when a priest shields you.
--- by default your health must be above 70%
 --=====================================================================--
-RPWORDLIST.absorb.PALADIN = {}
-RPWORDLIST.absorb.PALADIN.emote = {}   
-RPWORDLIST.absorb.PALADIN.customemote = {}
+RPWORDLIST.absorb.PALADIN = {
+    "The Light repels all harm!",
+    "Faith is my shield!",
+}
+RPWORDLIST.absorb.PALADIN.emote = {}
+RPWORDLIST.absorb.PALADIN.customemote = {"smiles confidently as the attack is nullified."}
 RPWORDLIST.absorb.PALADIN.random = {}
+
 --=====================================================================--
 -- BLOCK: Creature or hostile player attacks. You block.
--- by default your health must be above 70%
 --=====================================================================--
-RPWORDLIST.block.PALADIN = {}
-RPWORDLIST.block.PALADIN.emote = {}  
-RPWORDLIST.block.PALADIN.customemote = {}
+RPWORDLIST.block.PALADIN = {
+    "Steel and faith protect me!",
+    "Your strike meets only my shield!",
+}
+RPWORDLIST.block.PALADIN.emote = {}
+RPWORDLIST.block.PALADIN.customemote = {"raises PP shield, deflecting the blow effortlessly."}
 RPWORDLIST.block.PALADIN.random = {}
+
 --=====================================================================--
 -- DODGE: Creature or hostile player attacks. You dodge.
--- by default your health must be above 70%
 --=====================================================================--
-RPWORDLIST.dodge.PALADIN = {}
-RPWORDLIST.dodge.PALADIN.emote = {}   
-RPWORDLIST.dodge.PALADIN.customemote = {}
+RPWORDLIST.dodge.PALADIN = {
+    "You’ll have to do better than that!",
+    "The Light guides my steps!",
+}
+RPWORDLIST.dodge.PALADIN.emote = {}
+RPWORDLIST.dodge.PALADIN.customemote = {"sidesteps the attack with divine grace."}
 RPWORDLIST.dodge.PALADIN.random = {}
+
 --=====================================================================--
 -- MISS: Creature or hostile player attacks but misses you.
--- by default your health must be above 70%
 --=====================================================================--
-RPWORDLIST.miss.PALADIN = {}
+RPWORDLIST.miss.PALADIN = {
+    "The Light favors me today!",
+    "Divine providence spares me!",
+}
 RPWORDLIST.miss.PALADIN.emote = {}
-RPWORDLIST.miss.PALADIN.customemote = {}
+RPWORDLIST.miss.PALADIN.customemote = {"smirks as the attack fails to connect."}
 RPWORDLIST.miss.PALADIN.random = {}
+
 --=====================================================================--
 -- PARRY: Creature or hostile player attacks. You parry.
--- by default your health must be above 70%
 --=====================================================================--
-RPWORDLIST.parry.PALADIN = {}
-RPWORDLIST.parry.PALADIN.emote = {} 
-RPWORDLIST.parry.PALADIN.customemote = {}
+RPWORDLIST.parry.PALADIN = {
+    "Your form is flawed.",
+    "A poor attempt at striking the righteous!",
+}
+RPWORDLIST.parry.PALADIN.emote = {}
+RPWORDLIST.parry.PALADIN.customemote = {"deflects the incoming strike with a precise maneuver."}
 RPWORDLIST.parry.PALADIN.random = {}
+
 --=====================================================================--
 -- CRIT: You crit damage with a physical attack
 --=====================================================================--
 RPWORDLIST.youcrit.PALADIN = {
-	"The vultures begin circling over you.",
-	"You will pay in blood for your foolishness.",
-	"You are beaten, it is useless to resist.",
+    "The vultures begin circling over you.",
+    "You will pay in blood for your foolishness.",
+    "You are beaten, it is useless to resist.",
 }
-RPWORDLIST.youcrit.PALADIN.emote = {}  
-RPWORDLIST.youcrit.PALADIN.customemote = {}
+RPWORDLIST.youcrit.PALADIN.emote = {}
+RPWORDLIST.youcrit.PALADIN.customemote = {"delivers a crushing blow, filled with divine fury."}
 RPWORDLIST.youcrit.PALADIN.random = {}
+
 --=====================================================================--
 -- CRIT (SPELL): You crit damage with a spell attack
 --=====================================================================--
-RPWORDLIST.youcritspell.PALADIN = {}
+RPWORDLIST.youcritspell.PALADIN = {
+    "The Light’s judgment is absolute!",
+    "Faith guides my magic!",
+}
 RPWORDLIST.youcritspell.PALADIN.emote = {}
-RPWORDLIST.youcritspell.PALADIN.customemote = {}
+RPWORDLIST.youcritspell.PALADIN.customemote = {"calls down holy power, smiting TARGET with radiant energy."}
 RPWORDLIST.youcritspell.PALADIN.random = {}
+
 --=====================================================================--
 -- HEAL: You heal someone else
 --=====================================================================--
-RPWORDLIST.youheal.PALADIN = {}
+RPWORDLIST.youheal.PALADIN = {
+    "Let the Light mend your wounds.",
+    "Blessings of the Light be upon you!",
+}
 RPWORDLIST.youheal.PALADIN.emote = {}
-RPWORDLIST.youheal.PALADIN.customemote = {}
+RPWORDLIST.youheal.PALADIN.customemote = {"channels divine energy, restoring TARGET's health."}
 RPWORDLIST.youheal.PALADIN.random = {}
+
 --=====================================================================--
 -- CRIT HEAL: You critically heal someone else
 --=====================================================================--
-RPWORDLIST.youcritheal.PALADIN = {}
+RPWORDLIST.youcritheal.PALADIN = {
+    "A miracle of the Light!",
+    "Your faith is rewarded!",
+}
 RPWORDLIST.youcritheal.PALADIN.emote = {}
-RPWORDLIST.youcritheal.PALADIN.customemote = {}
+RPWORDLIST.youcritheal.PALADIN.customemote = {"radiates holy power, mending wounds with divine brilliance."}
 RPWORDLIST.youcritheal.PALADIN.random = {}
+
 --=====================================================================--
 --  Friendly NPC talks
 	-- Usage                                    Example
@@ -160,266 +188,312 @@ RPWORDLIST.resurrect.PALADIN.random = {}
 --=====================================================================--
 -- Protection
 --=====================================================================--
-RPWORDLIST.devotion_aura.PALADIN = {}
-RPWORDLIST.devotion_aura.PALADIN.emote = {}
-RPWORDLIST.devotion_aura.PALADIN.customemote = {}
+RPWORDLIST.devotion_aura.PALADIN = {
+    "The Light's protection surrounds us!",
+}
+RPWORDLIST.devotion_aura.PALADIN.customemote = {"radiates a powerful aura of divine protection."}
 RPWORDLIST.devotion_aura.PALADIN.random = {}
 
-RPWORDLIST.divine_protection.PALADIN = {}
-RPWORDLIST.divine_protection.PALADIN.emote = {}
-RPWORDLIST.divine_protection.PALADIN.customemote = {}
+RPWORDLIST.divine_protection.PALADIN = {
+    "The Light shields me from harm!",
+}
+RPWORDLIST.divine_protection.PALADIN.customemote = {"becomes encased in a shimmering barrier of divine energy."}
 RPWORDLIST.divine_protection.PALADIN.random = {}
 
-RPWORDLIST.hammer_of_justice.PALADIN = {}
-RPWORDLIST.hammer_of_justice.PALADIN.emote = {}
-RPWORDLIST.hammer_of_justice.PALADIN.customemote = {}
+RPWORDLIST.hammer_of_justice.PALADIN = {
+    "Justice is swift!",
+    "Feel the righteous fury!",
+}
+RPWORDLIST.hammer_of_justice.PALADIN.customemote = {"raises PP hammer, striking down justice upon TARGET."}
 RPWORDLIST.hammer_of_justice.PALADIN.random = {}
 
-RPWORDLIST.blessing_of_protection.PALADIN = {}
-RPWORDLIST.blessing_of_protection.PALADIN.emote = {}
-RPWORDLIST.blessing_of_protection.PALADIN.customemote = {}
+RPWORDLIST.blessing_of_protection.PALADIN = {
+    "You are safe in the Light’s embrace!",
+}
+RPWORDLIST.blessing_of_protection.PALADIN.customemote = {"bestows a divine shield upon TARGET, shielding them from harm."}
 RPWORDLIST.blessing_of_protection.PALADIN.random = {}
 
-RPWORDLIST.righteous_fury.PALADIN = {}
-RPWORDLIST.righteous_fury.PALADIN.emote = {}
-RPWORDLIST.righteous_fury.PALADIN.customemote = {}
+RPWORDLIST.righteous_fury.PALADIN = {
+    "The Light compels my wrath!",
+}
+RPWORDLIST.righteous_fury.PALADIN.customemote = {"channels divine anger, drawing the attention of foes."}
 RPWORDLIST.righteous_fury.PALADIN.random = {}
 
-RPWORDLIST.blessing_of_freedom.PALADIN = {}
-RPWORDLIST.blessing_of_freedom.PALADIN.emote = {}
-RPWORDLIST.blessing_of_freedom.PALADIN.customemote = {}
+RPWORDLIST.blessing_of_freedom.PALADIN = {
+    "Break free of your chains!",
+}
+RPWORDLIST.blessing_of_freedom.PALADIN.customemote = {"empowers TARGET with the Light, freeing them from hindrances."}
 RPWORDLIST.blessing_of_freedom.PALADIN.random = {}
 
-RPWORDLIST.blessing_of_kings.PALADIN = {}
-RPWORDLIST.blessing_of_kings.PALADIN.emote = {}
-RPWORDLIST.blessing_of_kings.PALADIN.customemote = {}
+RPWORDLIST.blessing_of_kings.PALADIN = {
+    "Stand tall, as the Light’s chosen!",
+}
+RPWORDLIST.blessing_of_kings.PALADIN.customemote = {"blesses TARGET with the wisdom and strength of kings."}
 RPWORDLIST.blessing_of_kings.PALADIN.random = {}
 
-RPWORDLIST.concentration_aura.PALADIN = {}
-RPWORDLIST.concentration_aura.PALADIN.emote = {}
-RPWORDLIST.concentration_aura.PALADIN.customemote = {}
+RPWORDLIST.concentration_aura.PALADIN = {
+    "The Light grants unwavering focus!",
+}
+RPWORDLIST.concentration_aura.PALADIN.customemote = {"radiates an aura that bolsters mental fortitude."}
 RPWORDLIST.concentration_aura.PALADIN.random = {}
 
-RPWORDLIST.seal_of_justice.PALADIN = {}
-RPWORDLIST.seal_of_justice.PALADIN.emote = {}
-RPWORDLIST.seal_of_justice.PALADIN.customemote = {}
+RPWORDLIST.seal_of_justice.PALADIN = {
+    "Justice shall be done!",
+}
+RPWORDLIST.seal_of_justice.PALADIN.customemote = {"imbues PP weapon with divine judgment."}
 RPWORDLIST.seal_of_justice.PALADIN.random = {}
 
-RPWORDLIST.blessing_of_salvation.PALADIN = {}
-RPWORDLIST.blessing_of_salvation.PALADIN.emote = {}
-RPWORDLIST.blessing_of_salvation.PALADIN.customemote = {}
+RPWORDLIST.blessing_of_salvation.PALADIN = {
+    "The Light shelters you from harm!",
+}
+RPWORDLIST.blessing_of_salvation.PALADIN.customemote = {"bestows divine grace upon TARGET, reducing their threat."}
 RPWORDLIST.blessing_of_salvation.PALADIN.random = {}
 
-RPWORDLIST.shadow_resistance_aura.PALADIN = {}
-RPWORDLIST.shadow_resistance_aura.PALADIN.emote = {}
-RPWORDLIST.shadow_resistance_aura.PALADIN.customemote = {}
+RPWORDLIST.shadow_resistance_aura.PALADIN = {
+    "The Light repels the darkness!",
+}
+RPWORDLIST.shadow_resistance_aura.PALADIN.customemote = {"radiates an aura that shields against shadow magic."}
 RPWORDLIST.shadow_resistance_aura.PALADIN.random = {}
 
-RPWORDLIST.blessing_of_sanctuary.PALADIN = {}
-RPWORDLIST.blessing_of_sanctuary.PALADIN.emote = {}
-RPWORDLIST.blessing_of_sanctuary.PALADIN.customemote = {}
+RPWORDLIST.blessing_of_sanctuary.PALADIN = {
+    "The Light shields you from harm!",
+}
+RPWORDLIST.blessing_of_sanctuary.PALADIN.customemote = {"blesses TARGET with divine protection against harm."}
 RPWORDLIST.blessing_of_sanctuary.PALADIN.random = {}
 
-RPWORDLIST.divine_intervention.PALADIN = {}
-RPWORDLIST.divine_intervention.PALADIN.emote = {}
-RPWORDLIST.divine_intervention.PALADIN.customemote = {}
+RPWORDLIST.divine_intervention.PALADIN = {
+    "The Light guides my sacrifice!",
+}
+RPWORDLIST.divine_intervention.PALADIN.customemote = {"sacrifices PPself to protect TARGET, enveloping them in divine energy."}
 RPWORDLIST.divine_intervention.PALADIN.random = {}
 
-RPWORDLIST.frost_resistance_aura.PALADIN = {}
-RPWORDLIST.frost_resistance_aura.PALADIN.emote = {}
-RPWORDLIST.frost_resistance_aura.PALADIN.customemote = {}
+RPWORDLIST.frost_resistance_aura.PALADIN = {
+    "The Light wards against the cold!",
+}
+RPWORDLIST.frost_resistance_aura.PALADIN.customemote = {"radiates an aura that shields against frost magic."}
 RPWORDLIST.frost_resistance_aura.PALADIN.random = {}
 
-RPWORDLIST.divine_shield.PALADIN = {}
-RPWORDLIST.divine_shield.PALADIN.emote = {}
-RPWORDLIST.divine_shield.PALADIN.customemote = {}
+RPWORDLIST.divine_shield.PALADIN = {
+    "The Light makes me untouchable!",
+}
+RPWORDLIST.divine_shield.PALADIN.customemote = {"becomes enveloped in an impenetrable divine barrier."}
 RPWORDLIST.divine_shield.PALADIN.random = {}
 
-RPWORDLIST.fire_resistance_aura.PALADIN = {}
-RPWORDLIST.fire_resistance_aura.PALADIN.emote = {}
-RPWORDLIST.fire_resistance_aura.PALADIN.customemote = {}
+RPWORDLIST.fire_resistance_aura.PALADIN = {
+    "The Light wards against the flames!",
+}
+RPWORDLIST.fire_resistance_aura.PALADIN.customemote = {"radiates an aura that shields against fire magic."}
 RPWORDLIST.fire_resistance_aura.PALADIN.random = {}
 
-RPWORDLIST.holy_shield.PALADIN = {}
-RPWORDLIST.holy_shield.PALADIN.emote = {}
-RPWORDLIST.holy_shield.PALADIN.customemote = {}
+RPWORDLIST.holy_shield.PALADIN = {
+    "Divine protection, manifest!",
+}
+RPWORDLIST.holy_shield.PALADIN.customemote = {"raises a radiant shield of holy energy."}
 RPWORDLIST.holy_shield.PALADIN.random = {}
 
-RPWORDLIST.blessing_of_sacrifice.PALADIN = {}
-RPWORDLIST.blessing_of_sacrifice.PALADIN.emote = {}
-RPWORDLIST.blessing_of_sacrifice.PALADIN.customemote = {}
+RPWORDLIST.blessing_of_sacrifice.PALADIN = {
+    "Your burden is now mine!",
+}
+RPWORDLIST.blessing_of_sacrifice.PALADIN.customemote = {"takes on a portion of TARGET's suffering."}
 RPWORDLIST.blessing_of_sacrifice.PALADIN.random = {}
 
-RPWORDLIST.greater_blessing_of_kings.PALADIN = {}
-RPWORDLIST.greater_blessing_of_kings.PALADIN.emote = {}
-RPWORDLIST.greater_blessing_of_kings.PALADIN.customemote = {}
-RPWORDLIST.greater_blessing_of_kings.PALADIN.random = {}
-
-RPWORDLIST.greater_blessing_of_salvation.PALADIN = {}
-RPWORDLIST.greater_blessing_of_salvation.PALADIN.emote = {}
-RPWORDLIST.greater_blessing_of_salvation.PALADIN.customemote = {}
-RPWORDLIST.greater_blessing_of_salvation.PALADIN.random = {}
-
-RPWORDLIST.greater_blessing_of_sanctuary.PALADIN = {}
-RPWORDLIST.greater_blessing_of_sanctuary.PALADIN.emote = {}
-RPWORDLIST.greater_blessing_of_sanctuary.PALADIN.customemote = {}
-RPWORDLIST.greater_blessing_of_sanctuary.PALADIN.random = {}
 --=====================================================================--
 -- Retribution
 --=====================================================================--
-RPWORDLIST.blessing_of_might.PALADIN = {}
-RPWORDLIST.blessing_of_might.PALADIN.emote = {}
-RPWORDLIST.blessing_of_might.PALADIN.customemote = {}
+RPWORDLIST.blessing_of_might.PALADIN = {
+    "The Light grants you strength!",
+}
+RPWORDLIST.blessing_of_might.PALADIN.customemote = {"imbues TARGET with divine might."}
 RPWORDLIST.blessing_of_might.PALADIN.random = {}
 
-RPWORDLIST.judgement.PALADIN = {}
-RPWORDLIST.judgement.PALADIN.emote = {}
-RPWORDLIST.judgement.PALADIN.customemote = {}
+RPWORDLIST.judgement.PALADIN = {
+    "Face the Light’s judgment!",
+}
+RPWORDLIST.judgement.PALADIN.customemote = {"delivers a powerful verdict upon TARGET."}
 RPWORDLIST.judgement.PALADIN.random = {}
 
-RPWORDLIST.seal_of_the_crusader.PALADIN = {}
-RPWORDLIST.seal_of_the_crusader.PALADIN.emote = {}
-RPWORDLIST.seal_of_the_crusader.PALADIN.customemote = {}
+RPWORDLIST.seal_of_the_crusader.PALADIN = {
+    "The path of the Crusader is righteous!",
+}
+RPWORDLIST.seal_of_the_crusader.PALADIN.customemote = {"imbues PP weapon with holy fervor."}
 RPWORDLIST.seal_of_the_crusader.PALADIN.random = {}
 
-RPWORDLIST.retribution_aura.PALADIN = {}
-RPWORDLIST.retribution_aura.PALADIN.emote = {}
-RPWORDLIST.retribution_aura.PALADIN.customemote = {}
+RPWORDLIST.retribution_aura.PALADIN = {
+    "Let them feel the sting of righteousness!",
+}
+RPWORDLIST.retribution_aura.PALADIN.customemote = {"radiates an aura of divine vengeance."}
 RPWORDLIST.retribution_aura.PALADIN.random = {}
 
-RPWORDLIST.seal_of_command.PALADIN = {}
-RPWORDLIST.seal_of_command.PALADIN.emote = {}
-RPWORDLIST.seal_of_command.PALADIN.customemote = {}
+RPWORDLIST.seal_of_command.PALADIN = {
+    "The Light commands my blade!",
+}
+RPWORDLIST.seal_of_command.PALADIN.customemote = {"infuses PP weapon with divine force."}
 RPWORDLIST.seal_of_command.PALADIN.random = {}
 
-RPWORDLIST.sanctity_aura.PALADIN = {}
-RPWORDLIST.sanctity_aura.PALADIN.emote = {}
-RPWORDLIST.sanctity_aura.PALADIN.customemote = {}
+RPWORDLIST.sanctity_aura.PALADIN = {
+    "The sacred power of the Light flows through us!",
+}
+RPWORDLIST.sanctity_aura.PALADIN.customemote = {"radiates an aura of divine sanctity."}
 RPWORDLIST.sanctity_aura.PALADIN.random = {}
 
-RPWORDLIST.repentance.PALADIN = {}
-RPWORDLIST.repentance.PALADIN.emote = {}
-RPWORDLIST.repentance.PALADIN.customemote = {}
+RPWORDLIST.repentance.PALADIN = {
+    "Kneel and seek redemption!",
+}
+RPWORDLIST.repentance.PALADIN.customemote = {"compels TARGET to reflect upon their sins."}
 RPWORDLIST.repentance.PALADIN.random = {}
 
-RPWORDLIST.greater_blessing_of_might.PALADIN = {}
-RPWORDLIST.greater_blessing_of_might.PALADIN.emote = {}
-RPWORDLIST.greater_blessing_of_might.PALADIN.customemote = {}
+RPWORDLIST.greater_blessing_of_might.PALADIN = {
+    "With great power, comes holy responsibility!",
+}
+RPWORDLIST.greater_blessing_of_might.PALADIN.customemote = {"bestows a grand blessing of strength upon TARGET."}
 RPWORDLIST.greater_blessing_of_might.PALADIN.random = {}
 --=====================================================================--
--- Holy                                                                  
+-- Holy                                                                 
 --=====================================================================--
-RPWORDLIST.holy_light.PALADIN = {}
-RPWORDLIST.holy_light.PALADIN.emote = {}
-RPWORDLIST.holy_light.PALADIN.customemote = {}
+RPWORDLIST.holy_light.PALADIN = {
+    "The Light’s warmth heals all wounds!",
+    "Let divine radiance restore you!",
+}
+RPWORDLIST.holy_light.PALADIN.customemote = {"channels the Light’s energy, restoring TARGET’s health."}
 RPWORDLIST.holy_light.PALADIN.random = {}
 
-RPWORDLIST.purify.PALADIN = {}
-RPWORDLIST.purify.PALADIN.emote = {}
-RPWORDLIST.purify.PALADIN.customemote = {}
+RPWORDLIST.purify.PALADIN = {
+    "Let the Light cleanse your spirit!",
+}
+RPWORDLIST.purify.PALADIN.customemote = {"removes impurities from TARGET, restoring their purity."}
 RPWORDLIST.purify.PALADIN.random = {}
 
-RPWORDLIST.lay_on_hands.PALADIN = {}
-RPWORDLIST.lay_on_hands.PALADIN.emote = {}
-RPWORDLIST.lay_on_hands.PALADIN.customemote = {}
+RPWORDLIST.lay_on_hands.PALADIN = {
+    "By the Light, be restored!",
+}
+RPWORDLIST.lay_on_hands.PALADIN.customemote = {"places a radiant hand upon TARGET, healing them completely."}
 RPWORDLIST.lay_on_hands.PALADIN.random = {}
 
-RPWORDLIST.seal_of_righteousness.PALADIN = {}
-RPWORDLIST.seal_of_righteousness.PALADIN.emote = {}
-RPWORDLIST.seal_of_righteousness.PALADIN.customemote = {}
+RPWORDLIST.seal_of_righteousness.PALADIN = {
+    "My strikes are guided by divine will!",
+}
+RPWORDLIST.seal_of_righteousness.PALADIN.customemote = {"imbues PP weapon with righteous fury."}
 RPWORDLIST.seal_of_righteousness.PALADIN.random = {}
 
-RPWORDLIST.redemption.PALADIN = {}
-RPWORDLIST.redemption.PALADIN.emote = {}
-RPWORDLIST.redemption.PALADIN.customemote = {}
+RPWORDLIST.redemption.PALADIN = {
+    "Rise again, and walk in the Light!",
+}
+RPWORDLIST.redemption.PALADIN.customemote = {"channels divine energy to resurrect TARGET."}
 RPWORDLIST.redemption.PALADIN.random = {}
 
-RPWORDLIST.blessing_of_wisdom.PALADIN = {}
-RPWORDLIST.blessing_of_wisdom.PALADIN.emote = {}
-RPWORDLIST.blessing_of_wisdom.PALADIN.customemote = {}
+RPWORDLIST.blessing_of_wisdom.PALADIN = {
+    "Let the Light grant you wisdom!",
+}
+RPWORDLIST.blessing_of_wisdom.PALADIN.customemote = {"bestows a blessing of insight upon TARGET."}
 RPWORDLIST.blessing_of_wisdom.PALADIN.random = {}
 
-RPWORDLIST.consecration.PALADIN = {}
-RPWORDLIST.consecration.PALADIN.emote = {}
-RPWORDLIST.consecration.PALADIN.customemote = {}
+RPWORDLIST.consecration.PALADIN = {
+    "The ground itself is sanctified!",
+}
+RPWORDLIST.consecration.PALADIN.customemote = {"blesses the ground beneath PP feet, consecrating the battlefield."}
 RPWORDLIST.consecration.PALADIN.random = {}
 
-RPWORDLIST.exorcism.PALADIN = {}
-RPWORDLIST.exorcism.PALADIN.emote = {}
-RPWORDLIST.exorcism.PALADIN.customemote = {}
+RPWORDLIST.exorcism.PALADIN = {
+    "Begone, foul creature!",
+}
+RPWORDLIST.exorcism.PALADIN.customemote = {"channels divine wrath to smite TARGET."}
 RPWORDLIST.exorcism.PALADIN.random = {}
 
-RPWORDLIST.flash_of_light.PALADIN = {}
-RPWORDLIST.flash_of_light.PALADIN.emote = {}
-RPWORDLIST.flash_of_light.PALADIN.customemote = {}
+RPWORDLIST.flash_of_light.PALADIN = {
+    "A swift blessing of the Light!",
+}
+RPWORDLIST.flash_of_light.PALADIN.customemote = {"quickly channels a burst of divine energy to heal TARGET."}
 RPWORDLIST.flash_of_light.PALADIN.random = {}
 
-RPWORDLIST.turn_undead.PALADIN = {}
-RPWORDLIST.turn_undead.PALADIN.emote = {}
-RPWORDLIST.turn_undead.PALADIN.customemote = {}
+RPWORDLIST.turn_undead.PALADIN = {
+    "Back to the shadows with you!",
+}
+RPWORDLIST.turn_undead.PALADIN.customemote = {"raises a holy symbol, forcing TARGET to flee in terror."}
 RPWORDLIST.turn_undead.PALADIN.random = {}
 
-RPWORDLIST.sense_undead.PALADIN = {}
-RPWORDLIST.sense_undead.PALADIN.emote = {}
-RPWORDLIST.sense_undead.PALADIN.customemote = {}
+RPWORDLIST.sense_undead.PALADIN = {
+    "I can feel the taint of undeath nearby...",
+}
+RPWORDLIST.sense_undead.PALADIN.customemote = {"focuses, attuning PP senses to detect the undead."}
 RPWORDLIST.sense_undead.PALADIN.random = {}
 
-RPWORDLIST.divine_favor.PALADIN = {}
-RPWORDLIST.divine_favor.PALADIN.emote = {}
-RPWORDLIST.divine_favor.PALADIN.customemote = {}
+RPWORDLIST.divine_favor.PALADIN = {
+    "The Light smiles upon me!",
+}
+RPWORDLIST.divine_favor.PALADIN.customemote = {"feels an overwhelming surge of divine favor."}
 RPWORDLIST.divine_favor.PALADIN.random = {}
 
-RPWORDLIST.seal_of_light.PALADIN = {}
-RPWORDLIST.seal_of_light.PALADIN.emote = {}
-RPWORDLIST.seal_of_light.PALADIN.customemote = {}
+RPWORDLIST.seal_of_light.PALADIN = {
+    "The Light empowers my every strike!",
+}
+RPWORDLIST.seal_of_light.PALADIN.customemote = {"imbues PP weapon with healing energy."}
 RPWORDLIST.seal_of_light.PALADIN.random = {}
 
-RPWORDLIST.seal_of_wisdom.PALADIN = {}
-RPWORDLIST.seal_of_wisdom.PALADIN.emote = {}
-RPWORDLIST.seal_of_wisdom.PALADIN.customemote = {}
+RPWORDLIST.seal_of_wisdom.PALADIN = {
+    "With wisdom, I endure!",
+}
+RPWORDLIST.seal_of_wisdom.PALADIN.customemote = {"imbues PP weapon with knowledge-giving power."}
 RPWORDLIST.seal_of_wisdom.PALADIN.random = {}
 
-RPWORDLIST.blessing_of_light.PALADIN = {}
-RPWORDLIST.blessing_of_light.PALADIN.emote = {}
-RPWORDLIST.blessing_of_light.PALADIN.customemote = {}
+RPWORDLIST.blessing_of_light.PALADIN = {
+    "May the Light guide your path!",
+}
+RPWORDLIST.blessing_of_light.PALADIN.customemote = {"blesses TARGET with the brilliance of the Light."}
 RPWORDLIST.blessing_of_light.PALADIN.random = {}
 
-RPWORDLIST.holy_shock.PALADIN = {}
-RPWORDLIST.holy_shock.PALADIN.emote = {}
-RPWORDLIST.holy_shock.PALADIN.customemote = {}
+RPWORDLIST.holy_shock.PALADIN = {
+    "Divine retribution, swift and just!",
+}
+RPWORDLIST.holy_shock.PALADIN.customemote = {"calls down a burst of holy energy upon TARGET."}
 RPWORDLIST.holy_shock.PALADIN.random = {}
 
-RPWORDLIST.summon_warhorse.PALADIN = {}
-RPWORDLIST.summon_warhorse.PALADIN.emote = {}
-RPWORDLIST.summon_warhorse.PALADIN.customemote = {}
+RPWORDLIST.summon_warhorse.PALADIN = {
+    "A knight must always ride with honor!",
+}
+RPWORDLIST.summon_warhorse.PALADIN.customemote = {"summons a noble warhorse, blessed by the Light."}
 RPWORDLIST.summon_warhorse.PALADIN.random = {}
 
-RPWORDLIST.cleanse.PALADIN = {}
-RPWORDLIST.cleanse.PALADIN.emote = {}
-RPWORDLIST.cleanse.PALADIN.customemote = {}
+RPWORDLIST.cleanse.PALADIN = {
+    "The Light purges all impurities!",
+}
+RPWORDLIST.cleanse.PALADIN.customemote = {"cleanses TARGET of all afflictions."}
 RPWORDLIST.cleanse.PALADIN.random = {}
 
-RPWORDLIST.hammer_of_wrath.PALADIN = {}
-RPWORDLIST.hammer_of_wrath.PALADIN.emote = {}
-RPWORDLIST.hammer_of_wrath.PALADIN.customemote = {}
+RPWORDLIST.hammer_of_wrath.PALADIN = {
+    "Feel the weight of divine judgment!",
+}
+RPWORDLIST.hammer_of_wrath.PALADIN.customemote = {"hurls a mighty hammer of Light at TARGET."}
 RPWORDLIST.hammer_of_wrath.PALADIN.random = {}
 
-RPWORDLIST.holy_wrath.PALADIN = {}
-RPWORDLIST.holy_wrath.PALADIN.emote = {}
-RPWORDLIST.holy_wrath.PALADIN.customemote = {}
+RPWORDLIST.holy_wrath.PALADIN = {
+    "The Light’s fury shall consume you!",
+}
+RPWORDLIST.holy_wrath.PALADIN.customemote = {"calls forth a blast of holy power upon undead and demons."}
 RPWORDLIST.holy_wrath.PALADIN.random = {}
 
-RPWORDLIST.greater_blessing_of_wisdom.PALADIN = {}
-RPWORDLIST.greater_blessing_of_wisdom.PALADIN.emote = {}
-RPWORDLIST.greater_blessing_of_wisdom.PALADIN.customemote = {}
-RPWORDLIST.greater_blessing_of_wisdom.PALADIN.random = {}
+--=====================================================================--
+-- New Turtle WoW Paladin Spells
+--=====================================================================--
 
-RPWORDLIST.greater_blessing_of_light.PALADIN = {}
-RPWORDLIST.greater_blessing_of_light.PALADIN.emote = {}
-RPWORDLIST.greater_blessing_of_light.PALADIN.customemote = {}
-RPWORDLIST.greater_blessing_of_light.PALADIN.random = {}
+RPWORDLIST.bulwark_of_the_righteous.PALADIN = {
+    "The Light shields me, and my shield strikes true!",
+    "Faith and steel, unbreakable together!",
+}
+RPWORDLIST.bulwark_of_the_righteous.PALADIN.customemote = {"slams PP shield into TARGET, channeling divine power for protection."}
+RPWORDLIST.bulwark_of_the_righteous.PALADIN.random = {}
 
-RPWORDLIST.hearthstone.PALADIN = {}
-RPWORDLIST.hearthstone.PALADIN.emote = {}
-RPWORDLIST.hearthstone.PALADIN.customemote = {"grasps PP hearthstone and calls upon the Light to transport OP to HOME."}
-RPWORDLIST.hearthstone.PALADIN.random = {}
+RPWORDLIST.crusader_strike.PALADIN = {
+    "For the Light, and for justice!",
+    "Let the Light sear your wickedness!",
+}
+RPWORDLIST.crusader_strike.PALADIN.customemote = {"delivers a righteous strike, amplifying the holy power against TARGET."}
+RPWORDLIST.crusader_strike.PALADIN.random = {}
+
+RPWORDLIST.hand_of_reckoning.PALADIN = {
+    "Face me, coward!",
+    "The Light compels you to battle!",
+}
+RPWORDLIST.hand_of_reckoning.PALADIN.customemote = {"raises PP hand, calling TARGET to face divine judgment."}
+RPWORDLIST.hand_of_reckoning.PALADIN.random = {}
+
+
