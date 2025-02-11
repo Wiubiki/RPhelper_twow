@@ -1248,6 +1248,7 @@ function RP_OnEvent(event)
 	----------------------------------------------------------------------------------------------------------
 	--  If your character hasn't met this NPC before, 1) you'll introduce yourself & 2) the NPC name will be saved to INTRODUCED
 	----------------------------------------------------------------------------------------------------------
+			if not INTRODUCED then INTRODUCED = {} end
 			local found = false
 			local i = 1
 			while INTRODUCED[i] do
