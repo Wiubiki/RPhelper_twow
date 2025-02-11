@@ -126,3 +126,6 @@ Full credit and many thanks to the original authors and contributors of the add-
 I did my best to track down the history of this add-on, but since it’s a **very old and discontinued project**, it was difficult to find all contributors.  
 If I missed someone, I sincerely apologize—it wasn’t intentional! Feel free to reach out if you have more info.
 
+
+---
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V71A0D8Q)
