@@ -137,6 +137,8 @@ SPELLS.instant = {}
 SPELLS.next_melee = {}
 SPELLS.channeled = {}
 
+SPELLS.casttime.DWARF = {}
+SPELLS.casttime.HIGHELF = {}
 SPELLS.casttime.TAUREN = {}
 SPELLS.casttime.DRUID = {}
 SPELLS.casttime.HUNTER = {}
@@ -193,11 +195,11 @@ SPELLS.channeled.WARRIOR = {}	-- No channeled spells for Warrior
 -- This DOES NOT include racial class spells
 --/////////////////////////////////////////////////////////////////////--
 
---SPELLS.instant.DWARF.dwarfracial =        		"DwarfRacial"--
---SPELLS.instant.GNOME.escape_artist =        	"Escape Artist"
+SPELLS.casttime.DWARF.stoneform =        		"Stoneform"
+SPELLS.instant.GNOME.escape_artist =        	"Escape Artist"
 SPELLS.instant.GOBLIN.exit_strategy =        	"Exit Strategy"
-SPELLS.instant.HIGHELF.highelfracial =        	"HighElfRacial"
-SPELLS.instant.HUMAN.humanracial =        		"HumanRacial"
+SPELLS.casttime.HIGHELF.queldorei_meditation =  "Quel'dorei Meditation"
+SPELLS.instant.HUMAN.perception =        		"Perception"
 SPELLS.instant.NIGHTELF.shadowmeld =        	"Shadowmeld"
 SPELLS.instant.ORC.blood_fury =        			"Blood Fury"
 SPELLS.casttime.TAUREN.war_stomp =        		"War Stomp"
