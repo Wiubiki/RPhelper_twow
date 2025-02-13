@@ -112,12 +112,7 @@ function RPHelper_ReplaceKeywords( x, RPType )
 			if string.find( v, "PT.P" ) or string.find( v, "PTNAME" ) then
 				if UnitExists("pettarget") then
 
-		  			if ( GetLocale() == "deDE" ) then
-				    	if UnitSex("pettarget") == 2 then		PTSP, PTOP, PTPP = "Er",  "ihn", "seinen"
-				        elseif UnitSex("pettarget") == 3 then	PTSP, PTOP, PTPP = "Sie", "sie", "ihren"
-				        else									PTSP, PTOP, PTPP = "Es",  "es",  "dem Ding"		end
-				    else
-				    	if UnitSex("pettarget") == 2 then		PTSP, PTOP, PTPP = "he",  "him", "his"
+		  			if UnitSex("pettarget") == 2 then		PTSP, PTOP, PTPP = "he",  "him", "his"
 				        elseif UnitSex("pettarget") == 3 then	PTSP, PTOP, PTPP = "she", "her", "her"
 				        else									PTSP, PTOP, PTPP = "it",  "it",  "its"	end
 			        end
@@ -138,12 +133,7 @@ function RPHelper_ReplaceKeywords( x, RPType )
 			if string.find( v, "TSP" ) or string.find( v, "TOP" ) or string.find( v, "TPP" ) or string.find( v, "TARGET" ) then
 				if UnitExists("target") then
 
-		  			if ( GetLocale() == "deDE" ) then
-				    	if UnitSex("target") == 2 then			TSP, TOP, TPP = "Er",  "ihn", "seinen"
-				        elseif UnitSex("target") == 3 then		TSP, TOP, TPP = "Sie", "sie", "ihren"
-				        else									TSP, TOP, TPP = "Es",  "es",  "dem Ding"		end
-				    else
-				    	if UnitSex("target") == 2 then			TSP, TOP, TPP = "he",  "him", "his"
+		  			if UnitSex("target") == 2 then			TSP, TOP, TPP = "he",  "him", "his"
 				        elseif UnitSex("target") == 3 then		TSP, TOP, TPP = "she", "her", "her"
 				        else									TSP, TOP, TPP = "it",  "it",  "its"		end
 			        end
@@ -163,12 +153,7 @@ function RPHelper_ReplaceKeywords( x, RPType )
 			-- PTSP, PTOP, PTPP, TSP, TOP, & TPP have already been taken out so...
 			if string.find( v, "SP" ) or string.find( v, "OP" ) or string.find( v, "PP" ) or string.find( v, "PLAYER" ) then
 
-	  			if ( GetLocale() == "deDE" ) then
-			    	if UnitSex("player") == 2 then			SP, OP, PP = "Er",  "ihn", "seinen"
-			        elseif UnitSex("player") == 3 then		SP, OP, PP = "Sie", "sie", "ihren"
-			        else									SP, OP, PP = "Es",  "es",  "dem Ding"	end
-			    else
-			    	if UnitSex("player") == 2 then			SP, OP, PP = "he",  "him", "his"
+	  			if UnitSex("player") == 2 then			SP, OP, PP = "he",  "him", "his"
 			        elseif UnitSex("player") == 3 then		SP, OP, PP = "she", "her", "her"
 			        else									SP, OP, PP = "it",  "it",  "its"	end -- Probably not necessary since PLAYER always has a gender
 		        end
