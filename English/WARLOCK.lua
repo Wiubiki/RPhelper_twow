@@ -21,71 +21,100 @@ RPWORDLIST.entercombat.WARLOCK.random = {}
 --=====================================================================--
 -- When you LEAVE COMBAT (when the crossed swords leave your level #)
 --=====================================================================--
-RPWORDLIST.leavecombat.WARLOCK = {}
+RPWORDLIST.leavecombat.WARLOCK = {
+    "The darkness claims another...",
+    "A mere taste of the power I wield...",
+}
 RPWORDLIST.leavecombat.WARLOCK.emote = {}
-RPWORDLIST.leavecombat.WARLOCK.customemote = {}
+RPWORDLIST.leavecombat.WARLOCK.customemote = {"smirks as the last remnants of shadow fade from PP hands."}
 RPWORDLIST.leavecombat.WARLOCK.random = {}
+
 --=====================================================================--
---  HURT: when you get HIT & you have LESS HEALTH than the last time you got hit
+-- HURT: when you get HIT & you have LESS HEALTH than the last time you got hit
 --=====================================================================--
-RPWORDLIST.hurt.WARLOCK = {}
+RPWORDLIST.hurt.WARLOCK = {
+    "Pain is power...",
+    "Fool! You've only made me stronger!",
+}
 RPWORDLIST.hurt.WARLOCK.emote = {}
-RPWORDLIST.hurt.WARLOCK.customemote = {}
+RPWORDLIST.hurt.WARLOCK.customemote = {"grins wickedly as the pain fuels PP dark magic."}
 RPWORDLIST.hurt.WARLOCK.random = {}
+
 --=====================================================================--
 -- ABSORB: Creature or hostile player attacks but you absorb the damage.
--- For example: when a priest shields you.
--- by default your health must be above 70%
 --=====================================================================--
-RPWORDLIST.absorb.WARLOCK = {}
+RPWORDLIST.absorb.WARLOCK = {
+    "Did you think that would work?",
+    "Your feeble attacks amuse me!",
+}
 RPWORDLIST.absorb.WARLOCK.emote = {"GOLFCLAP"}
-RPWORDLIST.absorb.WARLOCK.customemote = {}
+RPWORDLIST.absorb.WARLOCK.customemote = {"laughs coldly as the attack dissipates against a shadowy barrier."}
 RPWORDLIST.absorb.WARLOCK.random = {}
+
 --=====================================================================--
 -- BLOCK: Creature or hostile player attacks. You block.
--- by default your health must be above 70%
 --=====================================================================--
-RPWORDLIST.block.WARLOCK = {}
+RPWORDLIST.block.WARLOCK = {
+    "Your efforts are meaningless.",
+    "I deflect your attack with ease!",
+}
 RPWORDLIST.block.WARLOCK.emote = {}
-RPWORDLIST.block.WARLOCK.customemote = {}
+RPWORDLIST.block.WARLOCK.customemote = {"raises a dark shield, easily turning aside the attack."}
 RPWORDLIST.block.WARLOCK.random = {}
+
 --=====================================================================--
 -- DODGE: Creature or hostile player attacks. You dodge.
--- by default your health must be above 70%
 --=====================================================================--
-RPWORDLIST.dodge.WARLOCK = {}
+RPWORDLIST.dodge.WARLOCK = {
+    "Missed me, mortal!",
+    "You'll have to do better than that!",
+}
 RPWORDLIST.dodge.WARLOCK.emote = {}
-RPWORDLIST.dodge.WARLOCK.customemote = {}
+RPWORDLIST.dodge.WARLOCK.customemote = {"sidesteps with supernatural grace, avoiding the attack entirely."}
 RPWORDLIST.dodge.WARLOCK.random = {}
+
 --=====================================================================--
 -- MISS: Creature or hostile player attacks but misses you.
--- by default your health must be above 70%
 --=====================================================================--
-RPWORDLIST.miss.WARLOCK = {}
+RPWORDLIST.miss.WARLOCK = {
+    "Pathetic.",
+    "Even fate is against you.",
+}
 RPWORDLIST.miss.WARLOCK.emote = {}
-RPWORDLIST.miss.WARLOCK.customemote = {}
+RPWORDLIST.miss.WARLOCK.customemote = {"chuckles as TARGET’s attack whiffs harmlessly past."}
 RPWORDLIST.miss.WARLOCK.random = {}
+
 --=====================================================================--
 -- PARRY: Creature or hostile player attacks. You parry.
--- by default your health must be above 70%
 --=====================================================================--
-RPWORDLIST.parry.WARLOCK = {}
+RPWORDLIST.parry.WARLOCK = {
+    "You dare challenge me?",
+    "A futile strike against true power!",
+}
 RPWORDLIST.parry.WARLOCK.emote = {}
-RPWORDLIST.parry.WARLOCK.customemote = {}
+RPWORDLIST.parry.WARLOCK.customemote = {"twists PP staff, deflecting the attack with a flash of shadow magic."}
 RPWORDLIST.parry.WARLOCK.random = {}
+
 --=====================================================================--
 -- CRIT: You crit damage with a physical attack
 --=====================================================================--
-RPWORDLIST.youcrit.WARLOCK = {}
+RPWORDLIST.youcrit.WARLOCK = {
+    "Your suffering delights me!",
+    "The void devours all... including you!",
+}
 RPWORDLIST.youcrit.WARLOCK.emote = {}
-RPWORDLIST.youcrit.WARLOCK.customemote = {}
+RPWORDLIST.youcrit.WARLOCK.customemote = {"relishes in the devastation PP attack has wrought."}
 RPWORDLIST.youcrit.WARLOCK.random = {}
+
 --=====================================================================--
 -- CRIT (SPELL): You crit damage with a spell attack
 --=====================================================================--
-RPWORDLIST.youcritspell.WARLOCK = {}
+RPWORDLIST.youcritspell.WARLOCK = {
+    "The darkness claims you!",
+    "Embrace oblivion!",
+}
 RPWORDLIST.youcritspell.WARLOCK.emote = {}
-RPWORDLIST.youcritspell.WARLOCK.customemote = {}
+RPWORDLIST.youcritspell.WARLOCK.customemote = {"chants an incantation, unleashing a wave of devastating shadow magic upon TARGET."}
 RPWORDLIST.youcritspell.WARLOCK.random = {}
 --=====================================================================--
 -- When your PET STARTS ATTACKING.
@@ -308,153 +337,174 @@ RPWORDLIST.drain_mana.WARLOCK.customemote = {}
 RPWORDLIST.drain_mana.WARLOCK.random = {}  
 
 ------------------------------------------------------------------------- 
-                                                                          
-RPWORDLIST.corruption.WARLOCK = {}
+RPWORDLIST.corruption.WARLOCK = {
+    "Decay, rot, and suffer...",
+}
 RPWORDLIST.corruption.WARLOCK.emote = {}
-RPWORDLIST.corruption.WARLOCK.customemote = {}
-RPWORDLIST.corruption.WARLOCK.random = {} 
-                                                  
-RPWORDLIST.siphon_life.WARLOCK = {}
+RPWORDLIST.corruption.WARLOCK.customemote = {"chants a dark incantation, spreading corruption over TARGET."}
+RPWORDLIST.corruption.WARLOCK.random = {}
+
+RPWORDLIST.siphon_life.WARLOCK = {
+    "Your essence belongs to me now...",
+}
 RPWORDLIST.siphon_life.WARLOCK.emote = {}
-RPWORDLIST.siphon_life.WARLOCK.customemote = {}
-RPWORDLIST.siphon_life.WARLOCK.random = {} 
-                                                  
-RPWORDLIST.death_coil.WARLOCK = {}
+RPWORDLIST.siphon_life.WARLOCK.customemote = {"extends a hand, draining life from TARGET into PP own body."}
+RPWORDLIST.siphon_life.WARLOCK.random = {}
+
+RPWORDLIST.death_coil.WARLOCK = {
+    "Embrace the void!",
+}
 RPWORDLIST.death_coil.WARLOCK.emote = {}
-RPWORDLIST.death_coil.WARLOCK.customemote = {}
+RPWORDLIST.death_coil.WARLOCK.customemote = {"unleashes a shriek of dark energy, sending a wave of dread into TARGET."}
 RPWORDLIST.death_coil.WARLOCK.random = {}
 
-------------------------------------------------------------------------- 
-                                                                                                                            
-RPWORDLIST.life_tap.WARLOCK = {}
-RPWORDLIST.life_tap.WARLOCK.emote = {}
-RPWORDLIST.life_tap.WARLOCK.customemote = {}
-RPWORDLIST.life_tap.WARLOCK.random = {}   
-                                                  
-RPWORDLIST.dark_pact.WARLOCK = {}
-RPWORDLIST.dark_pact.WARLOCK.emote = {}
-RPWORDLIST.dark_pact.WARLOCK.customemote = {}
-RPWORDLIST.dark_pact.WARLOCK.random = {}     
+-------------------------------------------------------------------------
 
-------------------------------------------------------------------------- 
-                                                                                                                   
+RPWORDLIST.life_tap.WARLOCK = {
+    "Pain is merely another resource...",
+}
+RPWORDLIST.life_tap.WARLOCK.emote = {}
+RPWORDLIST.life_tap.WARLOCK.customemote = {"draws upon PP own life force, exchanging vitality for dark energy."}
+RPWORDLIST.life_tap.WARLOCK.random = {}
+
+RPWORDLIST.dark_pact.WARLOCK = {
+    "My minions suffer, so I may conquer...",
+}
+RPWORDLIST.dark_pact.WARLOCK.emote = {}
+RPWORDLIST.dark_pact.WARLOCK.customemote = {"reaches into the void, draining dark power from PP demonic minions."}
+RPWORDLIST.dark_pact.WARLOCK.random = {}
+
+-------------------------------------------------------------------------
+
 RPWORDLIST.fear.WARLOCK = {
     "Prepare to know the true meaning of fear.",
     "And once you know it - run.",
 }
 RPWORDLIST.fear.WARLOCK.emote = {}
-RPWORDLIST.fear.WARLOCK.customemote = {}
-RPWORDLIST.fear.WARLOCK.random = {}          
+RPWORDLIST.fear.WARLOCK.customemote = {"chants a twisted incantation, instilling sheer terror in TARGET."}
+RPWORDLIST.fear.WARLOCK.random = {}
 
-RPWORDLIST.howl_of_terror.WARLOCK = {}
+RPWORDLIST.howl_of_terror.WARLOCK = {
+    "Your screams are music to my ears!",
+}
 RPWORDLIST.howl_of_terror.WARLOCK.emote = {}
-RPWORDLIST.howl_of_terror.WARLOCK.customemote = {}
+RPWORDLIST.howl_of_terror.WARLOCK.customemote = {"lets out a bone-chilling howl, sending TARGET fleeing in uncontrollable terror."}
 RPWORDLIST.howl_of_terror.WARLOCK.random = {}
 
 --=====================================================================--
 -- Demonology
---=====================================================================--                       
-RPWORDLIST.demon_skin.WARLOCK = {}
+--=====================================================================--
+RPWORDLIST.demon_skin.WARLOCK = {
+    "The dark powers shield me...",
+}
 RPWORDLIST.demon_skin.WARLOCK.emote = {}
-RPWORDLIST.demon_skin.WARLOCK.customemote = {}
-RPWORDLIST.demon_skin.WARLOCK.random = {} 
-                         
-RPWORDLIST.demon_armor.WARLOCK = {}
+RPWORDLIST.demon_skin.WARLOCK.customemote = {"dark energy wraps around PP, forming a protective barrier."}
+RPWORDLIST.demon_skin.WARLOCK.random = {}
+
+RPWORDLIST.demon_armor.WARLOCK = {
+    "Armor of the abyss...",
+}
 RPWORDLIST.demon_armor.WARLOCK.emote = {}
-RPWORDLIST.demon_armor.WARLOCK.customemote = {}
-RPWORDLIST.demon_armor.WARLOCK.random = {}             
-                         
-RPWORDLIST.health_funnel.WARLOCK = {}
-RPWORDLIST.health_funnel.WARLOCK.customemote = {"tends to his demon's wounds."}
-RPWORDLIST.health_funnel.WARLOCK.random = {}           
-                         
-RPWORDLIST.unending_breath.WARLOCK = {"Your breath will be unending."}
+RPWORDLIST.demon_armor.WARLOCK.customemote = {"chants in a guttural tone, fortifying PP body with demonic resilience."}
+RPWORDLIST.demon_armor.WARLOCK.random = {}
+
+RPWORDLIST.health_funnel.WARLOCK = {
+    "Take my strength, minion...",
+}
+RPWORDLIST.health_funnel.WARLOCK.emote = {}
+RPWORDLIST.health_funnel.WARLOCK.customemote = {"tends to PP demon's wounds, transferring life force."}
+RPWORDLIST.health_funnel.WARLOCK.random = {}
+
+RPWORDLIST.unending_breath.WARLOCK = {
+    "Your breath will be unending.",
+}
 RPWORDLIST.unending_breath.WARLOCK.emote = {}
-RPWORDLIST.unending_breath.WARLOCK.customemote = {}
+RPWORDLIST.unending_breath.WARLOCK.customemote = {"whispers an incantation, granting TARGET the ability to breathe underwater."}
 RPWORDLIST.unending_breath.WARLOCK.random = {}
-                                               
-RPWORDLIST.fel_domination.WARLOCK = {}
+
+RPWORDLIST.fel_domination.WARLOCK = {
+    "Your will bends to mine!",
+}
 RPWORDLIST.fel_domination.WARLOCK.emote = {}
-RPWORDLIST.fel_domination.WARLOCK.customemote = {}
+RPWORDLIST.fel_domination.WARLOCK.customemote = {"channels demonic energy, enforcing absolute control over PP minion."}
 RPWORDLIST.fel_domination.WARLOCK.random = {}
-                                                             
-RPWORDLIST.sense_demons.WARLOCK = {"Hmm, let's see if have some demons nearby to enslave..."}
+
+RPWORDLIST.sense_demons.WARLOCK = {
+    "Hmm, let's see if there are some demons nearby to enslave...",
+}
 RPWORDLIST.sense_demons.WARLOCK.emote = {}
-RPWORDLIST.sense_demons.WARLOCK.customemote = {}
+RPWORDLIST.sense_demons.WARLOCK.customemote = {"closes PP eyes, reaching out with dark magic to sense demonic presences."}
 RPWORDLIST.sense_demons.WARLOCK.random = {}
-                                                                                
-RPWORDLIST.detect_lesser_invisibility.WARLOCK = {}
+
+RPWORDLIST.detect_lesser_invisibility.WARLOCK = {
+    "No shadow can hide from me...",
+}
 RPWORDLIST.detect_lesser_invisibility.WARLOCK.emote = {}
-RPWORDLIST.detect_lesser_invisibility.WARLOCK.customemote = {}
-RPWORDLIST.detect_lesser_invisibility.WARLOCK.random = {}   
-                                                                                
-RPWORDLIST.detect_invisibility.WARLOCK = {}
+RPWORDLIST.detect_lesser_invisibility.WARLOCK.customemote = {"channels dark energy, heightening PP vision to reveal the unseen."}
+RPWORDLIST.detect_lesser_invisibility.WARLOCK.random = {}
+
+RPWORDLIST.detect_invisibility.WARLOCK = {
+    "Nothing escapes my sight...",
+}
 RPWORDLIST.detect_invisibility.WARLOCK.emote = {}
-RPWORDLIST.detect_invisibility.WARLOCK.customemote = {}
-RPWORDLIST.detect_invisibility.WARLOCK.random = {}   
-                                                                                
-RPWORDLIST.detect_greater_invisibility.WARLOCK = {}
+RPWORDLIST.detect_invisibility.WARLOCK.customemote = {"focuses intently, piercing through illusions and veils."}
+RPWORDLIST.detect_invisibility.WARLOCK.random = {}
+
+RPWORDLIST.detect_greater_invisibility.WARLOCK = {
+    "Even the hidden will be revealed...",
+}
 RPWORDLIST.detect_greater_invisibility.WARLOCK.emote = {}
-RPWORDLIST.detect_greater_invisibility.WARLOCK.customemote = {}
-RPWORDLIST.detect_greater_invisibility.WARLOCK.random = {}  
+RPWORDLIST.detect_greater_invisibility.WARLOCK.customemote = {"murmurs an ancient incantation, dispelling greater forms of invisibility."}
+RPWORDLIST.detect_greater_invisibility.WARLOCK.random = {}
 
-RPWORDLIST.banish.WARLOCK = {}
+RPWORDLIST.banish.WARLOCK = {
+    "Begone from this plane!",
+}
 RPWORDLIST.banish.WARLOCK.emote = {}
-RPWORDLIST.banish.WARLOCK.customemote = {}
-RPWORDLIST.banish.WARLOCK.random = {"banishes TARGET from this plane briefly."}
+RPWORDLIST.banish.WARLOCK.customemote = {"banishes TARGET from this plane briefly."}
+RPWORDLIST.banish.WARLOCK.random = {}
 
-RPWORDLIST.eye_of_kilrogg.WARLOCK = {}
+RPWORDLIST.eye_of_kilrogg.WARLOCK = {
+    "The eye sees all...",
+}
 RPWORDLIST.eye_of_kilrogg.WARLOCK.emote = {}
-RPWORDLIST.eye_of_kilrogg.WARLOCK.customemote = {}
-RPWORDLIST.eye_of_kilrogg.WARLOCK.random = {}                          
+RPWORDLIST.eye_of_kilrogg.WARLOCK.customemote = {"summons a floating demonic eye to scout ahead."}
+RPWORDLIST.eye_of_kilrogg.WARLOCK.random = {}
 
-RPWORDLIST.demonic_sacrifice.WARLOCK = {}
+RPWORDLIST.demonic_sacrifice.WARLOCK = {
+    "Your power will serve me in death...",
+}
 RPWORDLIST.demonic_sacrifice.WARLOCK.emote = {}
-RPWORDLIST.demonic_sacrifice.WARLOCK.customemote = {}
-RPWORDLIST.demonic_sacrifice.WARLOCK.random = {}                       
+RPWORDLIST.demonic_sacrifice.WARLOCK.customemote = {"drains the life essence of PP minion, absorbing its power."}
+RPWORDLIST.demonic_sacrifice.WARLOCK.random = {}
 
-RPWORDLIST.ritual_of_summoning.WARLOCK = {"Summoning TARGET.",}
+RPWORDLIST.ritual_of_summoning.WARLOCK = {
+    "Summoning TARGET.",
+}
 RPWORDLIST.ritual_of_summoning.WARLOCK.emote = {}
-RPWORDLIST.ritual_of_summoning.WARLOCK.customemote = {"starts chanting in Demonic.  You hear TARGET's name.",}
+RPWORDLIST.ritual_of_summoning.WARLOCK.customemote = {"starts chanting in Demonic.  You hear TARGET's name."}
 RPWORDLIST.ritual_of_summoning.WARLOCK.random = {}
 
-RPWORDLIST.enslave_demon.WARLOCK = {}
-RPWORDLIST.enslave_demon.WARLOCK.emote = {"GRIN",}
-RPWORDLIST.enslave_demon.WARLOCK.customemote = {}
-RPWORDLIST.enslave_demon.WARLOCK.random = {}         
+RPWORDLIST.enslave_demon.WARLOCK = {
+    "Submit, creature of darkness!",
+}
+RPWORDLIST.enslave_demon.WARLOCK.emote = {"GRIN"}
+RPWORDLIST.enslave_demon.WARLOCK.customemote = {"binds the will of TARGET to PP command."}
+RPWORDLIST.enslave_demon.WARLOCK.random = {}
 
-RPWORDLIST.shadow_ward.WARLOCK = {}
+RPWORDLIST.shadow_ward.WARLOCK = {
+    "Darkness shields me...",
+}
 RPWORDLIST.shadow_ward.WARLOCK.emote = {}
-RPWORDLIST.shadow_ward.WARLOCK.customemote = {}
+RPWORDLIST.shadow_ward.WARLOCK.customemote = {"conjures a barrier of pure shadow energy."}
 RPWORDLIST.shadow_ward.WARLOCK.random = {}
 
-RPWORDLIST.soul_link.WARLOCK = {}
+RPWORDLIST.soul_link.WARLOCK = {
+    "Our fates are bound, demon...",
+}
 RPWORDLIST.soul_link.WARLOCK.emote = {}
-RPWORDLIST.soul_link.WARLOCK.customemote = {}
+RPWORDLIST.soul_link.WARLOCK.customemote = {"weaves a link between PP and PP demon, sharing their pain and power."}
 RPWORDLIST.soul_link.WARLOCK.random = {}
-
--------------------------------------------------------------------------
-
-RPWORDLIST.create_healthstone.WARLOCK = {}
-RPWORDLIST.create_healthstone.WARLOCK.emote = {}
-RPWORDLIST.create_healthstone.WARLOCK.customemote = {}
-RPWORDLIST.create_healthstone.WARLOCK.random = {}
-
-RPWORDLIST.create_soulstone.WARLOCK = {}
-RPWORDLIST.create_soulstone.WARLOCK.emote = {}
-RPWORDLIST.create_soulstone.WARLOCK.customemote = {}
-RPWORDLIST.create_soulstone.WARLOCK.random = {}
-
-RPWORDLIST.create_spellstone.WARLOCK = {}
-RPWORDLIST.create_spellstone.WARLOCK.emote = {}
-RPWORDLIST.create_spellstone.WARLOCK.customemote = {}
-RPWORDLIST.create_spellstone.WARLOCK.random = {}
-
-RPWORDLIST.create_firestone.WARLOCK = {}
-RPWORDLIST.create_firestone.WARLOCK.emote = {}
-RPWORDLIST.create_firestone.WARLOCK.customemote = {}
-RPWORDLIST.create_firestone.WARLOCK.random = {}
-
 -------------------------------------------------------------------------
 
 RPWORDLIST.summon_imp.WARLOCK = {
@@ -493,30 +543,41 @@ RPWORDLIST.summon_succubus.WARLOCK.emote = {}
 RPWORDLIST.summon_succubus.WARLOCK.customemote = {}
 RPWORDLIST.summon_succubus.WARLOCK.random = {}
 
-RPWORDLIST.summon_felhunter.WARLOCK = {}
+RPWORDLIST.summon_felhunter.WARLOCK = {
+    "Come forth, hunter of the arcane!",
+}
 RPWORDLIST.summon_felhunter.WARLOCK.emote = {}
-RPWORDLIST.summon_felhunter.WARLOCK.customemote = {}
+RPWORDLIST.summon_felhunter.WARLOCK.customemote = {"summons a Felhunter, its glowing eyes scanning hungrily for magic to consume."}
 RPWORDLIST.summon_felhunter.WARLOCK.random = {}
 
-RPWORDLIST.summon_felsteed.WARLOCK = {}
+RPWORDLIST.summon_felsteed.WARLOCK = {
+    "From the depths of the Nether, arise!",
+}
 RPWORDLIST.summon_felsteed.WARLOCK.emote = {}
-RPWORDLIST.summon_felsteed.WARLOCK.customemote = {}
-RPWORDLIST.summon_felsteed.WARLOCK.random = {}   
+RPWORDLIST.summon_felsteed.WARLOCK.customemote = {"calls forth a Felsteed, its hooves leaving trails of dark fire."}
+RPWORDLIST.summon_felsteed.WARLOCK.random = {}
 
-RPWORDLIST.summon_dreadsteed.WARLOCK = {}
+RPWORDLIST.summon_dreadsteed.WARLOCK = {
+    "Ride from the abyss and serve me!",
+}
 RPWORDLIST.summon_dreadsteed.WARLOCK.emote = {}
-RPWORDLIST.summon_dreadsteed.WARLOCK.customemote = {}
-RPWORDLIST.summon_dreadsteed.WARLOCK.random = {}    
+RPWORDLIST.summon_dreadsteed.WARLOCK.customemote = {"summons a Dreadsteed, its presence exuding infernal heat and power."}
+RPWORDLIST.summon_dreadsteed.WARLOCK.random = {}
 
-RPWORDLIST.inferno.WARLOCK = {}
+RPWORDLIST.inferno.WARLOCK = {
+    "Let the skies rain fire!",
+}
 RPWORDLIST.inferno.WARLOCK.emote = {}
-RPWORDLIST.inferno.WARLOCK.customemote = {}
-RPWORDLIST.inferno.WARLOCK.random = {}     
+RPWORDLIST.inferno.WARLOCK.customemote = {"calls down a fiery meteor, summoning an Infernal in a blaze of destruction."}
+RPWORDLIST.inferno.WARLOCK.random = {}
 
-RPWORDLIST.ritual_of_doom.WARLOCK = {}
+RPWORDLIST.ritual_of_doom.WARLOCK = {
+    "The sacrifice is made, now unleash destruction!",
+}
 RPWORDLIST.ritual_of_doom.WARLOCK.emote = {}
-RPWORDLIST.ritual_of_doom.WARLOCK.customemote = {}
+RPWORDLIST.ritual_of_doom.WARLOCK.customemote = {"performs an unholy ritual, summoning a Doomguard at a terrible cost."}
 RPWORDLIST.ritual_of_doom.WARLOCK.random = {}
+
 
 --=====================================================================--
 -- Destruction
@@ -558,3 +619,34 @@ RPWORDLIST.soul_fire.WARLOCK = {"Your soul shall BURN!", "Feel the fire with you
 RPWORDLIST.soul_fire.WARLOCK.emote = {}
 RPWORDLIST.soul_fire.WARLOCK.customemote = {}
 RPWORDLIST.soul_fire.WARLOCK.random = {}
+
+--=====================================================================--
+-- New Turtle WoW Spells
+--=====================================================================--
+RPWORDLIST.inferno.WARLOCK = {
+    "Let the skies rain fire!",
+}
+RPWORDLIST.inferno.WARLOCK.emote = {}
+RPWORDLIST.inferno.WARLOCK.customemote = {"calls down a fiery meteor, summoning an Infernal in a blaze of destruction."}
+RPWORDLIST.inferno.WARLOCK.random = {}
+
+RPWORDLIST.ritual_of_doom.WARLOCK = {
+    "The sacrifice is made, now unleash destruction!",
+}
+RPWORDLIST.ritual_of_doom.WARLOCK.emote = {}
+RPWORDLIST.ritual_of_doom.WARLOCK.customemote = {"performs an unholy ritual, summoning a Doomguard at a terrible cost."}
+RPWORDLIST.ritual_of_doom.WARLOCK.random = {}
+
+RPWORDLIST.demon_portal.WARLOCK = {
+    "From the Twisting Nether, arise!",
+}
+RPWORDLIST.demon_portal.WARLOCK.emote = {}
+RPWORDLIST.demon_portal.WARLOCK.customemote = {"opens a portal into the Nether, preparing to summon a Felguard."}
+RPWORDLIST.demon_portal.WARLOCK.random = {}
+
+RPWORDLIST.mana_funnel.WARLOCK = {
+    "Dark power flows through me...",
+}
+RPWORDLIST.mana_funnel.WARLOCK.emote = {}
+RPWORDLIST.mana_funnel.WARLOCK.customemote = {"channels arcane energy, siphoning mana into PP demon."}
+RPWORDLIST.mana_funnel.WARLOCK.random = {}

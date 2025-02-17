@@ -1,168 +1,140 @@
---////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--
--- Read "How to Customize.txt" to learn how to use this file.
---////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--
--- Contributors to this file:   mithyk, Syrsa
+--=====================================================================--
+-- ANY.lua (Universal Sayings for All Races)
+--=====================================================================--
 
 --=====================================================================--
 -- When you ENTER COMBAT (when the crossed swords cover your level #)
 --=====================================================================--
 RPWORDLIST.entercombat.ANY = {
-    "Fool! You dare assault one of PLAYER_GUILDNAME?",
-    "I shall rid SUB_ZONE of your filthy presence!",
-    }
-RPWORDLIST.entercombat.ANY.emote = {}
+    "To battle!",
+    "Let’s get this over with!",
+    "This will be quick...",
+}
+RPWORDLIST.entercombat.ANY.emote = {"CHARGE", "ROAR"}
 RPWORDLIST.entercombat.ANY.customemote = {}
 RPWORDLIST.entercombat.ANY.random = {}
+
 --=====================================================================--
 -- When you LEAVE COMBAT (when the crossed swords leave your level #)
 --=====================================================================--
-RPWORDLIST.leavecombat.ANY = {}
-RPWORDLIST.leavecombat.ANY.emote = {"CHEER SELF",}
+RPWORDLIST.leavecombat.ANY = {
+    "Another fight won.",
+    "That was almost too easy.",
+}
+RPWORDLIST.leavecombat.ANY.emote = {}
 RPWORDLIST.leavecombat.ANY.customemote = {}
 RPWORDLIST.leavecombat.ANY.random = {}
+
 --=====================================================================--
---  HURT: when you get HIT & you have LESS HEALTH than the last time you got hit
+-- HURT: when you get HIT & you have LESS HEALTH than the last time you got hit
 --=====================================================================--
-RPWORDLIST.hurt.ANY = {}
+RPWORDLIST.hurt.ANY = {
+    "That barely hurt!",
+    "You’ll have to do better than that!",
+}
 RPWORDLIST.hurt.ANY.emote = {}
 RPWORDLIST.hurt.ANY.customemote = {}
 RPWORDLIST.hurt.ANY.random = {}
+
 --=====================================================================--
 -- ABSORB: Creature or hostile player attacks but you absorb the damage.
--- For example: when a priest shields you.
--- by default your health must be above 70%
 --=====================================================================--
 RPWORDLIST.absorb.ANY = {
-	"Didn't even scratch me!",
-	"Ha! Completely absorbed that last hit.",
-	"Did I just get hit? I didn't feel it...",                          -- mithyk
-	}
+    "That’s all you got?",
+    "Barely felt a thing!",
+}
 RPWORDLIST.absorb.ANY.emote = {}
 RPWORDLIST.absorb.ANY.customemote = {}
-RPWORDLIST.absorb.ANY.random = {
+RPWORDLIST.absorb.ANY.random = {}
 
-	["phrase"] = "BLANK BLANK!",
-
-	[1] = {"I've been struck harder by","That felt like getting hit by","I think I just get hit by","You hit like",},
-
-	[2] = {"a little goblin girl","my grandmother","a strong breeze","my baby sister",},
-
-}
-
-RPWORDLIST.absorb.ANY.randomtwo = {
-
-	["phrase"] = "BLANK BLANK!",
-
-	[1] = {"A little goblin girl","My grandmother","A strong breeze","My baby sister",},
-
-	[2] = {"could hit harder than that","hits harder than that","strikes with more force",},
-
-}
 --=====================================================================--
 -- BLOCK: Creature or hostile player attacks. You block.
--- by default your health must be above 70%
 --=====================================================================--
 RPWORDLIST.block.ANY = {
-	"Ha! Blocked it.",
-	"That's my shield.",
-	"How'd my shield feel?",
-	"Haha! Blocked that one!",
-	"Blocked that last one.",
-	"Are you trying to hit my shield?",
-	"This is my shield. There are many like it, but this one is mine.", -- mithyk
-	"My shield is my life.",
-	"I have a very close friendship with my shield - we watch each other's back.",  -- mithyk
-	"What did my shield ever do to deserve a beating like that?",   -- mithyk
-	"What did my shield ever do to deserve a beating like that?",   -- deserves twice the chance
-	"I just got this shield re-painted!",                           -- mithyk
-	"No blow shall pass!",                                         	-- mithyk
-	}
+    "Try breaking through!",
+    "My defense is solid!",
+}
 RPWORDLIST.block.ANY.emote = {}
 RPWORDLIST.block.ANY.customemote = {}
 RPWORDLIST.block.ANY.random = {}
+
 --=====================================================================--
 -- DODGE: Creature or hostile player attacks. You dodge.
--- by default your health must be above 70%
 --=====================================================================--
 RPWORDLIST.dodge.ANY = {
-	"Haha! Dodged that one!",
-	"Dodged that last one.",
-	"Dodged it easily.",
-	"Dodged it. I'm over here now.",
-	"Won't catch me standing still.",                   -- mithyk
-	"Can't touch this.",                                -- mithyk
-	"At least try to hit me.",                          -- mithyk
-	"Stop trying to hit me, and HIT ME!",               -- mithyk
-	"You attack like a clumsy child, TARGET.",          -- mithyk (modified)
-	"You call that an attack?",                         -- mithyk
-	"Try swinging the weapon TOWARDS me!",              -- mithyk
-	}
+    "Missed me!",
+    "Too slow!",
+}
 RPWORDLIST.dodge.ANY.emote = {}
 RPWORDLIST.dodge.ANY.customemote = {}
 RPWORDLIST.dodge.ANY.random = {}
+
 --=====================================================================--
 -- MISS: Creature or hostile player attacks but misses you.
--- by default your health must be above 70%
 --=====================================================================--
 RPWORDLIST.miss.ANY = {
-	"Ha! Missed me!",
-	"That one breezed right by me.",
-	"Isn't the objective supposed to be to hit me?",    -- mithyk
-	"When you attack, you're supposed to hit me.",      -- mithyk
-	"Hey, you missed me!  I'm over here!"               -- mithyk
-	}
+    "Not even close!",
+    "You’ll have to aim better than that!",
+}
 RPWORDLIST.miss.ANY.emote = {}
 RPWORDLIST.miss.ANY.customemote = {}
 RPWORDLIST.miss.ANY.random = {}
+
 --=====================================================================--
 -- PARRY: Creature or hostile player attacks. You parry.
--- by default your health must be above 70%
 --=====================================================================--
 RPWORDLIST.parry.ANY = {
-	"Ha! Parried it easily.",
-	"How'd you like that parry? RINSULT",
-	"Intercepted!",                         					-- mithyk
-	"That attack was no better than that of a clumsy child.",   -- mithyk
-	"You call that an attack?",                                 -- mithyk
-	"You'll have to do better than that, TARGET.",
-	}
+    "Nice try!",
+    "I saw that coming!",
+}
 RPWORDLIST.parry.ANY.emote = {}
 RPWORDLIST.parry.ANY.customemote = {}
 RPWORDLIST.parry.ANY.random = {}
+
 --=====================================================================--
 -- CRIT: You crit damage with a physical attack
 --=====================================================================--
 RPWORDLIST.youcrit.ANY = {
-    "That looked like it hurt.",
-    "Ha! Did that hurt, TARGET?",
-    "It seems I hit in a critical spot.",
-    "Oh, I'll bet that hurt!",
-    "Oh, did that hurt, TARGET? You gonna cry now?",
+    "A perfect strike!",
+    "That had to hurt!",
 }
-RPWORDLIST.youcrit.ANY.emote = {"LAUGH", "SMIRK",}
-RPWORDLIST.youcrit.ANY.customemote = {"smiles at PP critical hit.",}
+RPWORDLIST.youcrit.ANY.emote = {}
+RPWORDLIST.youcrit.ANY.customemote = {}
 RPWORDLIST.youcrit.ANY.random = {}
+
 --=====================================================================--
 -- CRIT (SPELL): You crit damage with a spell attack
 --=====================================================================--
-RPWORDLIST.youcritspell.ANY = {}
+RPWORDLIST.youcritspell.ANY = {
+    "Magic never fails!",
+    "Feel the power!",
+}
 RPWORDLIST.youcritspell.ANY.emote = {}
-RPWORDLIST.youcritspell.ANY.customemote = {"smiles at PP critical spell strike.",}
+RPWORDLIST.youcritspell.ANY.customemote = {}
 RPWORDLIST.youcritspell.ANY.random = {}
+
 --=====================================================================--
 -- HEAL: You heal someone else
 --=====================================================================--
-RPWORDLIST.youheal.ANY = {}
+RPWORDLIST.youheal.ANY = {
+    "Be healed!",
+    "You’re good to go!",
+}
 RPWORDLIST.youheal.ANY.emote = {}
 RPWORDLIST.youheal.ANY.customemote = {}
 RPWORDLIST.youheal.ANY.random = {}
+
 --=====================================================================--
 -- CRIT HEAL: You critically heal someone else
 --=====================================================================--
-RPWORDLIST.youcritheal.ANY = {}
+RPWORDLIST.youcritheal.ANY = {
+    "A healing touch!",
+    "That should help a lot!",
+}
 RPWORDLIST.youcritheal.ANY.emote = {}
-RPWORDLIST.youcritheal.ANY.customemote = {"smiles at PP critical heal.",}
+RPWORDLIST.youcritheal.ANY.customemote = {}
 RPWORDLIST.youcritheal.ANY.random = {}
+
 --=====================================================================--
 -- When your PET STARTS ATTACKING.
 	-- PNAME = Pet's Name	
@@ -249,7 +221,10 @@ RPWORDLIST.talktonpc_beginning.ANY.random = {}
 -------------------------------------------------------------------------
 -- The MIDDLE of a conversation with an NPC
 -------------------------------------------------------------------------
-RPWORDLIST.talktonpc_middle.ANY = {}
+RPWORDLIST.talktonpc_middle.ANY = {
+	"Interesting...",
+	    "Go on...",
+}
 RPWORDLIST.talktonpc_middle.ANY.emote = { "TALKEX", "TALKQ", "LISTEN", }
 RPWORDLIST.talktonpc_middle.ANY.customemote = {}
 RPWORDLIST.talktonpc_middle.ANY.random = {}
@@ -290,8 +265,8 @@ RPWORDLIST.npctalksenemy.ANY.random = {}
 	-- If you are dead when the UI (User Interface) loads, you will not RP.
 --=====================================================================--
 RPWORDLIST.resurrect.ANY = {
-	"I'm alive!",
-	"Huh? Wha? How'd I get here?",
+	"Back from the dead!",
+    "I rise again!",
 	}
 RPWORDLIST.resurrect.ANY.emote = {}
 RPWORDLIST.resurrect.ANY.customemote = {}

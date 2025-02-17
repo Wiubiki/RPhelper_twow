@@ -667,7 +667,7 @@ SPELLS.casttime.ROGUE.deadly_poison_v = 		"Deadly Poison V"
 --=====================================================================--
 SPELLS.instant.ROGUE.agitating_poison = 		"Agitating Poison"
 SPELLS.instant.ROGUE.deadly_throw = 			"Deadly Throw"
-SPELLS.instant.ROGUE.exploit_weakness = 		"Exploit Weakness"
+SPELLS.instant.ROGUE.marked_for_death = 		"Marked for Death"
 SPELLS.instant.ROGUE.flourish = 				"Flourish"
 SPELLS.instant.ROGUE.surprise_attack = 			"Surprise Attack"
 
