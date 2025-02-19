@@ -1,5 +1,5 @@
 --=====================================================================--
--- ANY.lua (Universal Sayings for All Races)
+-- ANY.lua (Universal Sayings)
 --=====================================================================--
 
 --=====================================================================--
@@ -438,7 +438,7 @@ RPWORDLIST.exhausted.ANY.random = {}
 --=====================================================================--
 RPWORDLIST.av_recall.ANY = {}
 RPWORDLIST.av_recall.ANY.emote = {}
-RPWORDLIST.av_recall.ANY.customemote = {"draws upon PP Stormpike Insignia to return to Dun Baldar."}
+RPWORDLIST.av_recall.ANY.customemote = {"draws upon PP Insignia to return to BGFG's base."}
 RPWORDLIST.av_recall.ANY.random = {}
 
 --=====================================================================--
